@@ -2,6 +2,7 @@
 Version=9.1
 [Designs]
 lab_1=.\lab_1\lab_1.adf
+lab_2=.\lab_2\lab_2.adf
 [Browser]
 sort=order
 mode=none
@@ -10,3 +11,8 @@ order=1
 macro=
 [Expand]
 lab_1=1
+lab_2=1
+basic_logic_elements=0
+ble=0
+[Settings]
+Active=lab_2

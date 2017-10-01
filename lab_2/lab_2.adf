@@ -1,0 +1,87 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=lab_2
+
+[Library]
+lab_2=.\lab_2.LIB
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+FLOWTOOLS=NONE
+REFRESH_FLOW=1
+FAMILY=
+IMPL_TOOL=
+SYNTH_TOOL=
+fileopenfolder=D:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+lab_2=.
+Active_lib=
+ble=.
+
+[Folders]
+Name3=Makefiles
+Directory3=d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\
+Extension3=mak
+Name4=Memory
+Directory4=d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src
+Extension4=mem;mif;hex
+Name5=Dll Libraries
+Directory5=d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\
+Extension5=dll
+Name6=PDF
+Directory6=d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\
+Extension6=pdf
+Name7=HTML
+Directory7=d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\
+Extension7=
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=mux|mux_arch|0 mux2|mux2_arch|0 var5_behavioral|var5_behavioral_arch|0 var5_str|var5_str_arch|0 
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/mux.vhd=-1
+/mux2.vhd=-1
+/var5_structural.vhd=-1
+/not_and2.vhd=-1
+/nand2.vhd=-1
+/nor2.vhd=-1
+/nor3.vhd=-1
+/not_and3.vhd=-1
+/var5_behavioral.vhd=-1
+
+[Files.Data]
+.\src\mux.vhd=VHDL Source Code
+.\src\mux2.vhd=VHDL Source Code
+.\src\var5_structural.vhd=VHDL Source Code
+.\src\not_and2.vhd=VHDL Source Code
+.\src\nand2.vhd=VHDL Source Code
+.\src\nor2.vhd=VHDL Source Code
+.\src\nor3.vhd=VHDL Source Code
+.\src\not_and3.vhd=VHDL Source Code
+.\src\var5_behavioral.vhd=VHDL Source Code
+

@@ -1,0 +1,65 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=ble
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+IMPL_TOOL=
+SYNTH_TOOL=
+REFRESH_FLOW=1
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[Library]
+ble=.\ble.LIB
+
+[$LibMap$]
+ble=.
+
+[Files]
+/or2.vhd=-1
+/inv.vhd=-1
+/xor2.vhd=-1
+/and2.vhd=-1
+
+[Files.Data]
+.\src\or2.vhd=VHDL Source Code
+.\src\inv.vhd=VHDL Source Code
+.\src\xor2.vhd=VHDL Source Code
+.\src\and2.vhd=VHDL Source Code
+
+[Folders]
+Name3=Makefiles
+Directory3=d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\ble\
+Extension3=mak
+Name4=Memory
+Directory4=d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\ble\src
+Extension4=mem;mif;hex
+Name5=Dll Libraries
+Directory5=d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\ble\
+Extension5=dll
+Name6=PDF
+Directory6=d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\ble\
+Extension6=pdf
+Name7=HTML
+Directory7=d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\ble\
+Extension7=

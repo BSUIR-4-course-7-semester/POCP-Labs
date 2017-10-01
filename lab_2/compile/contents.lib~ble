@@ -1,0 +1,9 @@
+20
+~E 1 "./src/and2.vhd" 13 and2
+~A 1 "./src/and2.vhd" 21 and2_arch
+~E 1 "./src/inv.vhd" 13 inv
+~A 1 "./src/inv.vhd" 20 inv_arch
+~E 1 "./src/or2.vhd" 13 or2
+~A 1 "./src/or2.vhd" 21 or2_arch
+~E 1 "./src/xor2.vhd" 13 xor2
+~A 1 "./src/xor2.vhd" 21 xor2_arch

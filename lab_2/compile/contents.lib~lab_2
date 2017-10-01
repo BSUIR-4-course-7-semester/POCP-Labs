@@ -1,0 +1,21 @@
+89
+~E 1 "./src/mux.vhd" 15 mux
+~A 1 "./src/mux.vhd" 24 mux_arch
+~E 1 "./src/mux2.vhd" 13 mux2
+~A 1 "./src/mux2.vhd" 25 mux2_arch
+~E 1 "./src/nand2.vhd" 15 nand2
+~A 1 "./src/nand2.vhd" 23 nand2_arch
+~E 1 "./src/nor2.vhd" 15 nor2
+~A 1 "./src/nor2.vhd" 23 nor2_arch
+~E 1 "./src/nor3.vhd" 15 nor3
+~A 1 "./src/nor3.vhd" 24 nor3_arch
+~E 1 "./src/not_and2.vhd" 15 not_and2
+~A 1 "./src/not_and2.vhd" 23 not_and2_arch
+~E 1 "./src/not_and3.vhd" 15 not_and3
+~A 1 "./src/not_and3.vhd" 24 not_and3_arch
+~E 1 "./src/not_and2.vhd" 15 not_or2
+~A 1 "./src/not_and2.vhd" 23 not_or2_arch
+~E 1 "./src/var5_behavioral.vhd" 13 var5_behavioral
+~A 1 "./src/var5_behavioral.vhd" 23 var5_behavioral_arch
+~E 1 "./src/var5_structural.vhd" 15 var5_str
+~A 1 "./src/var5_structural.vhd" 25 var5_str_arch

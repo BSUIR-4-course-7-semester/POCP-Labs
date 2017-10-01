@@ -38,6 +38,29 @@ Active_lib=
 
 [Groups]
 
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=and2|and2_arch|0 devicefromtaskb|deviceFromTaskB_arch|0 mux|mux_arch|0 mux2|mux2_arch|0 xor4|xor4_arch|0
+ShowHide=ShowTopLevel
+Selected=
+
+[Folders]
+Name3=Makefiles
+Directory3=d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\
+Extension3=mak
+Name4=Memory
+Directory4=d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src
+Extension4=mem;mif;hex
+Name5=Dll Libraries
+Directory5=d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\
+Extension5=dll
+Name6=PDF
+Directory6=d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\
+Extension6=pdf
+Name7=HTML
+Directory7=d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\
+Extension7=
+
 [Files]
 /mux.vhd=-1
 /xor2.vhd=-1
@@ -58,8 +81,3 @@ Active_lib=
 .\src\deviceFromTaskB.vhd=VHDL Source Code
 .\src\mux2.vhd=VHDL Source Code
 
-[HierarchyViewer]
-SortInfo=u
-HierarchyInformation=and2|and2_arch|0 devicefromtaskb|deviceFromTaskB_arch|0 mux|mux_arch|0 mux2|mux2_arch|0 xor4|xor4_arch|0 
-ShowHide=ShowTopLevel
-Selected=

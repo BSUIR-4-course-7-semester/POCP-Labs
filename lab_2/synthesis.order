@@ -1,0 +1,9 @@
+i<>.\src\mux.vhd
+i<>.\src\mux2.vhd
+i<>.\src\var5.vhd
+i<>.\src\not_not_and.vhd
+i<>.\src\nand2.vhd
+i<>.\src\nor2.vhd
+i<>.\src\nor3.vhd
+i<>.\src\not_and3.vhd
+i<>.\src\var5_behavioral.vhd

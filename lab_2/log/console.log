@@ -1,0 +1,625 @@
+acom -O3 -work lab_2 -2002  $dsn/src/mux.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\mux.vhd
+# Compile Entity "mux"
+# Compile Architecture "mux_arch" of Entity "mux"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+mux mux mux_arch
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6004 kB (elbread=1023 elab2=4890 kernel=90 sdf=0)
+# KERNEL: ASDB file was created in location d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\wave.asdb
+#  18:25, воскресенье, 1 окт€бр€ 2017 г.
+#  Simulation has been initialized
+#  Selected Top-Level: mux (mux_arch)
+# add wave -noreg {/mux/a}
+# add wave -noreg {/mux/b}
+# add wave -noreg {/mux/s}
+# add wave -noreg {/mux/z}
+# 4 signal(s) traced.
+# Warning: WAVEFORM: Signal /mux/a not found.
+# Warning: WAVEFORM: Signal /mux/b not found.
+# Warning: WAVEFORM: Signal /mux/s not found.
+# Warning: WAVEFORM: Signal /mux/z not found.
+# add wave -noreg {/mux/a}
+# add wave -noreg {/mux/b}
+# add wave -noreg {/mux/s}
+# add wave -noreg {/mux/z}
+# KERNEL: Signal '/mux/a' has already been traced
+# KERNEL: Signal '/mux/b' has already been traced
+# KERNEL: Signal '/mux/s' has already been traced
+# KERNEL: Signal '/mux/z' has already been traced
+# 0 signal(s) traced.
+# Warning: WAVEFORM: Signal /mux/a not found.
+# Warning: WAVEFORM: Signal /mux/b not found.
+# Warning: WAVEFORM: Signal /mux/s not found.
+# Warning: WAVEFORM: Signal /mux/z not found.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6004 kB (elbread=1023 elab2=4890 kernel=90 sdf=0)
+# KERNEL: ASDB file was created in location d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\wave.asdb
+#  18:25, воскресенье, 1 окт€бр€ 2017 г.
+#  Simulation has been initialized
+#  Selected Top-Level: mux (mux_arch)
+# add wave -noreg {/mux/a}
+# add wave -noreg {/mux/b}
+# add wave -noreg {/mux/s}
+# add wave -noreg {/mux/z}
+# KERNEL: Signal '/mux/a' has already been traced
+# KERNEL: Signal '/mux/b' has already been traced
+# KERNEL: Signal '/mux/s' has already been traced
+# KERNEL: Signal '/mux/z' has already been traced
+# 0 signal(s) traced.
+# Warning: WAVEFORM: Signal /mux/a not found.
+# Warning: WAVEFORM: Signal /mux/b not found.
+# Warning: WAVEFORM: Signal /mux/s not found.
+# Warning: WAVEFORM: Signal /mux/z not found.
+endsim
+#  Simulation has been stopped
+asim -O5 +access +r +m+mux mux mux_arch
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6004 kB (elbread=1023 elab2=4890 kernel=90 sdf=0)
+# KERNEL: ASDB file was created in location d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\wave.asdb
+#  18:26, воскресенье, 1 окт€бр€ 2017 г.
+#  Simulation has been initialized
+#  Selected Top-Level: mux (mux_arch)
+# add wave -noreg {/mux/a}
+# add wave -noreg {/mux/b}
+# add wave -noreg {/mux/s}
+# add wave -noreg {/mux/z}
+# 4 signal(s) traced.
+# Warning: WAVEFORM: Signal /mux/a not found.
+# Warning: WAVEFORM: Signal /mux/b not found.
+# Warning: WAVEFORM: Signal /mux/s not found.
+# Warning: WAVEFORM: Signal /mux/z not found.
+# add wave -noreg {/mux/a}
+# KERNEL: Signal '/mux/a' has already been traced
+# 0 signal(s) traced.
+# Warning: WAVEFORM: Signal /mux/a not found.
+# add wave -noreg {/mux/a}
+# add wave -noreg {/mux/b}
+# add wave -noreg {/mux/s}
+# add wave -noreg {/mux/z}
+# KERNEL: Signal '/mux/a' has already been traced
+# KERNEL: Signal '/mux/b' has already been traced
+# KERNEL: Signal '/mux/s' has already been traced
+# KERNEL: Signal '/mux/z' has already been traced
+# 0 signal(s) traced.
+run 40 ns
+# KERNEL: stopped at time: 40 ns
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6004 kB (elbread=1023 elab2=4890 kernel=90 sdf=0)
+# KERNEL: ASDB file was created in location d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\wave.asdb
+#  18:28, воскресенье, 1 окт€бр€ 2017 г.
+#  Simulation has been initialized
+#  Selected Top-Level: mux (mux_arch)
+# KERNEL: Signal '/mux/a' has already been traced
+# KERNEL: Signal '/mux/b' has already been traced
+# KERNEL: Signal '/mux/s' has already been traced
+# KERNEL: Signal '/mux/z' has already been traced
+run 20 ns
+# KERNEL: stopped at time: 20 ns
+acom -O3 -work lab_2 -2002  $dsn/src/mux2.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\mux2.vhd
+# Compile Entity "mux2"
+# Compile Architecture "mux2_arch" of Entity "mux2"
+# Error: COMP96_0015: mux2.vhd : (33, 1): ';' expected.
+# Error: COMP96_0018: mux2.vhd : (33, 14): Identifier expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -work lab_2 -2002  $dsn/src/mux2.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\mux2.vhd
+# Compile Entity "mux2"
+# Compile Architecture "mux2_arch" of Entity "mux2"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+endsim
+#  Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+mux2 mux2 mux2_arch
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6005 kB (elbread=1023 elab2=4890 kernel=91 sdf=0)
+# KERNEL: ASDB file was created in location d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\wave.asdb
+#  18:36, воскресенье, 1 окт€бр€ 2017 г.
+#  Simulation has been initialized
+#  Selected Top-Level: mux2 (mux2_arch)
+# add wave -noreg {/mux2/a}
+# add wave -noreg {/mux2/b}
+# add wave -noreg {/mux2/a1}
+# add wave -noreg {/mux2/b1}
+# add wave -noreg {/mux2/s}
+# add wave -noreg {/mux2/z}
+# add wave -noreg {/mux2/z1}
+# 7 signal(s) traced.
+run 80 ns
+# KERNEL: stopped at time: 80 ns
+acom -O3 -work lab_2 -2002  $dsn/src/not_and2.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\not_and2.vhd
+# Compile Entity "not_and2"
+# Error: COMP96_0111: not_and2.vhd : (19, 5): Labels do not match.
+# Compile Architecture "not_and2_arch" of Entity "not_not_and"
+# Error: COMP96_0015: not_and2.vhd : (35, 21): ':' expected.
+# Error: COMP96_0018: not_and2.vhd : (35, 30): Identifier expected.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -work lab_2 -2002  $dsn/src/not_and2.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\not_and2.vhd
+# Compile Entity "not_and2"
+# Compile Architecture "not_and2_arch" of Entity "not_not_and"
+# Error: COMP96_0015: not_and2.vhd : (35, 21): ':' expected.
+# Error: COMP96_0018: not_and2.vhd : (35, 30): Identifier expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -work lab_2 -2002  $dsn/src/not_and2.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\not_and2.vhd
+# Compile Entity "not_and2"
+# Compile Architecture "not_and2_arch" of Entity "not_not_and"
+# Error: COMP96_0056: not_and2.vhd : (21, 1): Cannot find referenced entity declaration "not_not_and".
+# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -work lab_2 -2002  $dsn/src/not_and2.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\not_and2.vhd
+# Compile Entity "not_and2"
+# Compile Architecture "not_and2_arch" of Entity "not_and2"
+# Warning: ELAB1_0026: not_and2.vhd : (38, 0): There is no default binding for component "inv". (No entity named "inv" was found).
+# Warning: ELAB1_0026: not_and2.vhd : (40, 0): There is no default binding for component "and2". (No entity named "and2" was found).
+# Compile success 0 Errors 2 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -work lab_2 -2002  $dsn/src/mux2.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\mux2.vhd
+# Compile Entity "mux2"
+# Compile Architecture "mux2_arch" of Entity "mux2"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -work lab_2 -2002  $dsn/src/nand2.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\nand2.vhd
+# Compile Entity "nand2"
+# Compile Architecture "nand2_arch" of Entity "nand2"
+# Error: COMP96_0018: nand2.vhd : (27, 2): Identifier expected.
+# Error: COMP96_0018: nand2.vhd : (33, 2): Identifier expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  62.0 [ms]
+acom -O3 -work lab_2 -2002  $dsn/src/not_and2.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\not_and2.vhd
+# Compile Entity "not_and2"
+# Compile Architecture "not_and2_arch" of Entity "not_and2"
+# Warning: ELAB1_0026: not_and2.vhd : (38, 0): There is no default binding for component "inv". (No entity named "inv" was found).
+# Warning: ELAB1_0026: not_and2.vhd : (40, 0): There is no default binding for component "and2". (No entity named "and2" was found).
+# Compile success 0 Errors 2 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -work lab_2 -2002  $dsn/src/not_and2.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\not_and2.vhd
+# Compile Entity "not_and2"
+# Compile Architecture "not_and2_arch" of Entity "not_and2"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+acom -O3 -work lab_2 -2002  $dsn/src/nand2.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\nand2.vhd
+# Compile Entity "nand2"
+# Compile Architecture "nand2_arch" of Entity "nand2"
+# Warning: ELAB1_0026: nand2.vhd : (37, 0): There is no default binding for component "and2". (No entity named "and2" was found).
+# Warning: ELAB1_0026: nand2.vhd : (38, 0): There is no default binding for component "inv". (No entity named "inv" was found).
+# Compile success 0 Errors 2 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -work lab_2 -2002  $dsn/src/nand2.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\nand2.vhd
+# Compile Entity "nand2"
+# Compile Architecture "nand2_arch" of Entity "nand2"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -work lab_2 -2002  $dsn/src/nor2.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\nor2.vhd
+# Compile Entity "nor2"
+# Compile Architecture "nor2_arch" of Entity "nor2"
+# Error: COMP96_0018: nor2.vhd : (29, 2): Identifier expected.
+# Error: COMP96_0018: nor2.vhd : (35, 2): Identifier expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -work lab_2 -2002  $dsn/src/nor2.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\nor2.vhd
+# Compile Entity "nor2"
+# Compile Architecture "nor2_arch" of Entity "nor2"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -work lab_2 -2002  $dsn/src/nor3.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\nor3.vhd
+# Compile Entity "nor3"
+# Compile Architecture "nor3_arch" of Entity "nor3"
+# Error: COMP96_0018: nor3.vhd : (30, 2): Identifier expected.
+# Error: COMP96_0018: nor3.vhd : (36, 2): Identifier expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -work lab_2 -2002  $dsn/src/nor3.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\nor3.vhd
+# Compile Entity "nor3"
+# Compile Architecture "nor3_arch" of Entity "nor3"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -work lab_2 -2002  $dsn/src/not_and3.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\not_and3.vhd
+# Compile Entity "not_and3"
+# Compile Architecture "not_and3_arch" of Entity "not_and3"
+# Warning: ELAB1_0026: not_and3.vhd : (41, 0): There is no default binding for component "inv". (No entity named "inv" was found).
+# Warning: ELAB1_0026: not_and3.vhd : (44, 0): There is no default binding for component "and2". (No entity named "and2" was found).
+# Compile success 0 Errors 2 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -work lab_2 -2002  $dsn/src/not_and3.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\not_and3.vhd
+# Compile Entity "not_and3"
+# Compile Architecture "not_and3_arch" of Entity "not_and3"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -work lab_2 -2002  $dsn/src/var5_structural.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_structural.vhd
+# Compile Entity "var5_str"
+# Compile Architecture "var5_str_arch" of Entity "var5"
+# Error: COMP96_0056: var5_structural.vhd : (25, 1): Cannot find referenced entity declaration "var5".
+# Compile failure 1 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -work lab_2 -2002  $dsn/src/var5_structural.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_structural.vhd
+# Compile Entity "var5_str"
+# Compile Architecture "var5_str_arch" of Entity "var5_str"
+# Error: COMP96_0078: var5_structural.vhd : (81, 5): Unknown identifier "not_or2".
+# Error: COMP96_0134: var5_structural.vhd : (81, 5): Cannot find component declaration.
+# Error: COMP96_0078: var5_structural.vhd : (83, 19): Unknown identifier "now_w".
+# Error: COMP96_0133: var5_structural.vhd : (83, 19): Cannot find object declaration.
+# Error: COMP96_0104: var5_structural.vhd : (83, 19): Undefined type of expression.
+# Error: COMP96_0078: var5_structural.vhd : (85, 5): Unknown identifier "and3".
+# Error: COMP96_0134: var5_structural.vhd : (85, 5): Cannot find component declaration.
+# Compile failure 7 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -work lab_2 -2002  $dsn/src/var5_structural.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_structural.vhd
+# Compile Entity "var5_str"
+# Compile Architecture "var5_str_arch" of Entity "var5_str"
+# Warning: ELAB1_0026: var5_structural.vhd : (88, 0): There is no default binding for component "not_or2". (No entity named "not_or2" was found).
+# Compile success 0 Errors 1 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -work lab_2 -2002  $dsn/src/not_and2.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\not_and2.vhd
+# Compile Entity "not_or2"
+# Compile Architecture "not_or2_arch" of Entity "not_or2"
+# Error: COMP96_0134: not_and2.vhd : (42, 5): Cannot find component declaration.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -work lab_2 -2002  $dsn/src/not_and2.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\not_and2.vhd
+# Compile Entity "not_or2"
+# Compile Architecture "not_or2_arch" of Entity "not_or2"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -work lab_2 -2002  $dsn/src/var5_structural.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_structural.vhd
+# Compile Entity "var5_str"
+# Compile Architecture "var5_str_arch" of Entity "var5_str"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+endsim
+#  Simulation has been stopped
+asim -O5 +access +r +m+mux2 mux2 mux2_arch
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6005 kB (elbread=1023 elab2=4890 kernel=91 sdf=0)
+# KERNEL: ASDB file was created in location d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\wave.asdb
+#  19:55, воскресенье, 1 окт€бр€ 2017 г.
+#  Simulation has been initialized
+#  Selected Top-Level: mux2 (mux2_arch)
+#  Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# add wave -noreg {/var5_str/w}
+# add wave -noreg {/var5_str/x}
+# add wave -noreg {/var5_str/y}
+# add wave -noreg {/var5_str/z}
+# add wave -noreg {/var5_str/f}
+# Warning: WAVEFORM: Object matching /var5_str/w not found in d:/Documents/Univer/kurs_4/semestr_7/software_of_digital_design/labs/lab_2/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /var5_str/x not found in d:/Documents/Univer/kurs_4/semestr_7/software_of_digital_design/labs/lab_2/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /var5_str/y not found in d:/Documents/Univer/kurs_4/semestr_7/software_of_digital_design/labs/lab_2/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /var5_str/z not found in d:/Documents/Univer/kurs_4/semestr_7/software_of_digital_design/labs/lab_2/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /var5_str/f not found in d:/Documents/Univer/kurs_4/semestr_7/software_of_digital_design/labs/lab_2/src/wave.asdb.
+asim -O5 +access +r +m+var5_str var5_str var5_str_arch
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6007 kB (elbread=1024 elab2=4891 kernel=91 sdf=0)
+# KERNEL: ASDB file was created in location d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\wave.asdb
+#  19:56, воскресенье, 1 окт€бр€ 2017 г.
+#  Simulation has been initialized
+#  Selected Top-Level: var5_str (var5_str_arch)
+# add wave -noreg {/var5_str/w}
+# add wave -noreg {/var5_str/x}
+# add wave -noreg {/var5_str/y}
+# add wave -noreg {/var5_str/z}
+# add wave -noreg {/var5_str/f}
+# 5 signal(s) traced.
+run 40 ns
+# KERNEL: stopped at time: 40 ns
+acom -O3 -work lab_2 -2002  $dsn/src/var5_behavioral.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_behavioral.vhd
+# Compile Entity "var5_behavioral"
+# Compile Architecture "var5_behavioral_arch" of Entity "var5_behavioral"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+endsim
+#  Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+var5_behavioral var5_behavioral var5_behavioral_arch
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5748 kB (elbread=1023 elab2=4634 kernel=90 sdf=0)
+# KERNEL: ASDB file was created in location d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\wave.asdb
+#  21:26, воскресенье, 1 окт€бр€ 2017 г.
+#  Simulation has been initialized
+#  Selected Top-Level: var5_behavioral (var5_behavioral_arch)
+# add wave -noreg {/var5_behavioral/w}
+# add wave -noreg {/var5_behavioral/x}
+# add wave -noreg {/var5_behavioral/y}
+# add wave -noreg {/var5_behavioral/z}
+# add wave -noreg {/var5_behavioral/f}
+# 5 signal(s) traced.
+run 40 ns
+# KERNEL: stopped at time: 40 ns
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5748 kB (elbread=1023 elab2=4634 kernel=90 sdf=0)
+# KERNEL: ASDB file was created in location d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\wave.asdb
+#  21:28, воскресенье, 1 окт€бр€ 2017 г.
+#  Simulation has been initialized
+#  Selected Top-Level: var5_behavioral (var5_behavioral_arch)
+# KERNEL: Signal '/var5_behavioral/w' has already been traced
+# KERNEL: Signal '/var5_behavioral/x' has already been traced
+# KERNEL: Signal '/var5_behavioral/y' has already been traced
+# KERNEL: Signal '/var5_behavioral/z' has already been traced
+# KERNEL: Signal '/var5_behavioral/f' has already been traced
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5748 kB (elbread=1023 elab2=4634 kernel=90 sdf=0)
+# KERNEL: ASDB file was created in location d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\wave.asdb
+#  21:28, воскресенье, 1 окт€бр€ 2017 г.
+#  Simulation has been initialized
+#  Selected Top-Level: var5_behavioral (var5_behavioral_arch)
+# KERNEL: Signal '/var5_behavioral/w' has already been traced
+# KERNEL: Signal '/var5_behavioral/x' has already been traced
+# KERNEL: Signal '/var5_behavioral/y' has already been traced
+# KERNEL: Signal '/var5_behavioral/z' has already been traced
+# KERNEL: Signal '/var5_behavioral/f' has already been traced
+run 40 ns
+acom -O3 -work lab_2 -2002  $dsn/src/var5_behavioral.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_behavioral.vhd
+# Compile Entity "var5_behavioral"
+# Compile Architecture "var5_behavioral_arch" of Entity "var5_behavioral"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5748 kB (elbread=1023 elab2=4634 kernel=90 sdf=0)
+# KERNEL: ASDB file was created in location d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\wave.asdb
+#  21:28, воскресенье, 1 окт€бр€ 2017 г.
+#  Simulation has been initialized
+#  Selected Top-Level: var5_behavioral (var5_behavioral_arch)
+# KERNEL: Signal '/var5_behavioral/w' has already been traced
+# KERNEL: Signal '/var5_behavioral/x' has already been traced
+# KERNEL: Signal '/var5_behavioral/y' has already been traced
+# KERNEL: Signal '/var5_behavioral/z' has already been traced
+# KERNEL: Signal '/var5_behavioral/f' has already been traced
+run 40 ns
+# KERNEL: stopped at time: 40 ns
+run 40 ns
+acom -O3 -work lab_2 -2002  $dsn/src/var5_behavioral.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_behavioral.vhd
+# Compile Entity "var5_behavioral"
+# Compile Architecture "var5_behavioral_arch" of Entity "var5_behavioral"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5748 kB (elbread=1023 elab2=4634 kernel=90 sdf=0)
+# KERNEL: ASDB file was created in location d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\wave.asdb
+#  21:39, воскресенье, 1 окт€бр€ 2017 г.
+#  Simulation has been initialized
+#  Selected Top-Level: var5_behavioral (var5_behavioral_arch)
+# KERNEL: Signal '/var5_behavioral/w' has already been traced
+# KERNEL: Signal '/var5_behavioral/x' has already been traced
+# KERNEL: Signal '/var5_behavioral/y' has already been traced
+# KERNEL: Signal '/var5_behavioral/z' has already been traced
+# KERNEL: Signal '/var5_behavioral/f' has already been traced
+run 40 ns
+# KERNEL: stopped at time: 40 ns
+#  Simulation has been stopped
