@@ -1,0 +1,1033 @@
+# Design: Design lab_1 already active.
+# 
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: Flow Manager: Not Defined
+acom -reorder -O3 -work lab_1 -2002  $dsn/src/mux.vhd
+# Compile with File Reorder...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\mux.vhd
+# Compile Entity "mux"
+# Compile Architecture "mux_arch" of Entity "mux"
+# Top-level unit(s) detected:
+# Entity => mux
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+mux mux mux_arch
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5748 kB (elbread=1023 elab2=4633 kernel=90 sdf=0)
+# KERNEL: ASDB file was created in location d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb
+#  14:13, воскресенье, 1 окт€бр€ 2017 г.
+#  Simulation has been initialized
+#  Selected Top-Level: mux (mux_arch)
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# Clearing workspace libraries...
+# Library Manager: Library "lab_1" contents cleared.
+acom -reorder -O3 -work lab_1 -2002  $dsn/src/mux.vhd
+# Compile with File Reorder...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\mux.vhd
+# Compile Entity "mux"
+# Compile Architecture "mux_arch" of Entity "mux"
+# Top-level unit(s) detected:
+# Entity => mux
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+#  Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+mux mux mux_arch
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5748 kB (elbread=1023 elab2=4633 kernel=90 sdf=0)
+# KERNEL: ASDB file was created in location d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb
+#  14:15, воскресенье, 1 окт€бр€ 2017 г.
+#  Simulation has been initialized
+#  Selected Top-Level: mux (mux_arch)
+endsim
+#  Simulation has been stopped
+# Error: Aldec simulator executable not found.
+# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
+# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
+# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
+asim -O5 +access +r +m+mux mux mux_arch
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5748 kB (elbread=1023 elab2=4633 kernel=90 sdf=0)
+# ASDB: Error: Cannot overwrite simulation database 'd:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb'.
+# Make sure that no other application is accessing the database(s).
+#  14:17, воскресенье, 1 окт€бр€ 2017 г.
+#  Simulation has been initialized
+#  Selected Top-Level: mux (mux_arch)
+# ASDB: Error: Cannot overwrite simulation database 'd:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb'.
+# Make sure that no other application is accessing the database(s).
+# ASDB: Error: Cannot overwrite simulation database 'd:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb'.
+# Make sure that no other application is accessing the database(s).
+# ASDB: Error: Cannot overwrite simulation database 'd:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb'.
+# Make sure that no other application is accessing the database(s).
+# ASDB: Error: Cannot overwrite simulation database 'd:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb'.
+# Make sure that no other application is accessing the database(s).
+# 0 signal(s) traced.
+# Warning: WAVEFORM: Signal /mux/A not found.
+# Warning: WAVEFORM: Signal /mux/B not found.
+# Warning: WAVEFORM: Signal /mux/S not found.
+# Warning: WAVEFORM: Signal /mux/Z not found.
+# ASDB: Error: Cannot overwrite simulation database 'd:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb'.
+# Make sure that no other application is accessing the database(s).
+# ASDB: Error: Cannot overwrite simulation database 'd:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb'.
+# Make sure that no other application is accessing the database(s).
+# ASDB: Error: Cannot overwrite simulation database 'd:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb'.
+# Make sure that no other application is accessing the database(s).
+# ASDB: Error: Cannot overwrite simulation database 'd:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb'.
+# Make sure that no other application is accessing the database(s).
+# 0 signal(s) traced.
+# Warning: WAVEFORM: Signal /mux/A not found.
+# Warning: WAVEFORM: Signal /mux/B not found.
+# Warning: WAVEFORM: Signal /mux/S not found.
+# Warning: WAVEFORM: Signal /mux/Z not found.
+# ASDB: Error: Cannot overwrite simulation database 'd:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb'.
+# Make sure that no other application is accessing the database(s).
+# ASDB: Error: Cannot overwrite simulation database 'd:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb'.
+# Make sure that no other application is accessing the database(s).
+# ASDB: Error: Cannot overwrite simulation database 'd:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb'.
+# Make sure that no other application is accessing the database(s).
+# ASDB: Error: Cannot overwrite simulation database 'd:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb'.
+# Make sure that no other application is accessing the database(s).
+# 0 signal(s) traced.
+# Warning: WAVEFORM: Signal /mux/A not found.
+# Warning: WAVEFORM: Signal /mux/B not found.
+# Warning: WAVEFORM: Signal /mux/S not found.
+# Warning: WAVEFORM: Signal /mux/Z not found.
+# ASDB: Error: Cannot overwrite simulation database 'd:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb'.
+# Make sure that no other application is accessing the database(s).
+# ASDB: Error: Cannot overwrite simulation database 'd:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb'.
+# Make sure that no other application is accessing the database(s).
+# ASDB: Error: Cannot overwrite simulation database 'd:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb'.
+# Make sure that no other application is accessing the database(s).
+# ASDB: Error: Cannot overwrite simulation database 'd:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb'.
+# Make sure that no other application is accessing the database(s).
+# 0 signal(s) traced.
+# Warning: WAVEFORM: Signal /mux/A not found.
+# Warning: WAVEFORM: Signal /mux/B not found.
+# Warning: WAVEFORM: Signal /mux/S not found.
+# Warning: WAVEFORM: Signal /mux/Z not found.
+# ASDB: Error: Cannot overwrite simulation database 'd:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb'.
+# Make sure that no other application is accessing the database(s).
+# ASDB: Error: Cannot overwrite simulation database 'd:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb'.
+# Make sure that no other application is accessing the database(s).
+# ASDB: Error: Cannot overwrite simulation database 'd:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb'.
+# Make sure that no other application is accessing the database(s).
+# ASDB: Error: Cannot overwrite simulation database 'd:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb'.
+# Make sure that no other application is accessing the database(s).
+# 0 signal(s) traced.
+# Warning: WAVEFORM: Signal /mux/A not found.
+# Warning: WAVEFORM: Signal /mux/B not found.
+# Warning: WAVEFORM: Signal /mux/S not found.
+# Warning: WAVEFORM: Signal /mux/Z not found.
+# ASDB: Error: Cannot overwrite simulation database 'd:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb'.
+# Make sure that no other application is accessing the database(s).
+# ASDB: Error: Cannot overwrite simulation database 'd:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb'.
+# Make sure that no other application is accessing the database(s).
+# ASDB: Error: Cannot overwrite simulation database 'd:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb'.
+# Make sure that no other application is accessing the database(s).
+# ASDB: Error: Cannot overwrite simulation database 'd:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb'.
+# Make sure that no other application is accessing the database(s).
+# 0 signal(s) traced.
+# Warning: WAVEFORM: Signal /mux/A not found.
+# Warning: WAVEFORM: Signal /mux/B not found.
+# Warning: WAVEFORM: Signal /mux/S not found.
+# Warning: WAVEFORM: Signal /mux/Z not found.
+# ASDB: Error: Cannot overwrite simulation database 'd:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb'.
+# Make sure that no other application is accessing the database(s).
+# ASDB: Error: Cannot overwrite simulation database 'd:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb'.
+# Make sure that no other application is accessing the database(s).
+# ASDB: Error: Cannot overwrite simulation database 'd:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb'.
+# Make sure that no other application is accessing the database(s).
+# ASDB: Error: Cannot overwrite simulation database 'd:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb'.
+# Make sure that no other application is accessing the database(s).
+# 0 signal(s) traced.
+# Warning: WAVEFORM: Signal /mux/A not found.
+# Warning: WAVEFORM: Signal /mux/B not found.
+# Warning: WAVEFORM: Signal /mux/S not found.
+# Warning: WAVEFORM: Signal /mux/Z not found.
+# ASDB: Error: Cannot overwrite simulation database 'd:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb'.
+# Make sure that no other application is accessing the database(s).
+# ASDB: Error: Cannot overwrite simulation database 'd:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb'.
+# Make sure that no other application is accessing the database(s).
+# ASDB: Error: Cannot overwrite simulation database 'd:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb'.
+# Make sure that no other application is accessing the database(s).
+# ASDB: Error: Cannot overwrite simulation database 'd:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb'.
+# Make sure that no other application is accessing the database(s).
+# 0 signal(s) traced.
+# Warning: WAVEFORM: Signal /mux/A not found.
+# Warning: WAVEFORM: Signal /mux/B not found.
+# Warning: WAVEFORM: Signal /mux/S not found.
+# Warning: WAVEFORM: Signal /mux/Z not found.
+# add wave -noreg {/mux/A}
+# add wave -noreg {/mux/B}
+# add wave -noreg {/mux/S}
+# add wave -noreg {/mux/Z}
+# ASDB: Error: Cannot overwrite simulation database 'd:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb'.
+# Make sure that no other application is accessing the database(s).
+# ASDB: Error: Cannot overwrite simulation database 'd:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb'.
+# Make sure that no other application is accessing the database(s).
+# ASDB: Error: Cannot overwrite simulation database 'd:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb'.
+# Make sure that no other application is accessing the database(s).
+# ASDB: Error: Cannot overwrite simulation database 'd:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb'.
+# Make sure that no other application is accessing the database(s).
+# 0 signal(s) traced.
+# Warning: WAVEFORM: Signal /mux/A not found.
+# Warning: WAVEFORM: Signal /mux/B not found.
+# Warning: WAVEFORM: Signal /mux/S not found.
+# Warning: WAVEFORM: Signal /mux/Z not found.
+# add wave -noreg {/mux/A}
+# add wave -noreg {/mux/B}
+# add wave -noreg {/mux/S}
+# add wave -noreg {/mux/Z}
+# ASDB: Error: Cannot overwrite simulation database 'd:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb'.
+# Make sure that no other application is accessing the database(s).
+# ASDB: Error: Cannot overwrite simulation database 'd:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb'.
+# Make sure that no other application is accessing the database(s).
+# ASDB: Error: Cannot overwrite simulation database 'd:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb'.
+# Make sure that no other application is accessing the database(s).
+# ASDB: Error: Cannot overwrite simulation database 'd:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb'.
+# Make sure that no other application is accessing the database(s).
+# 0 signal(s) traced.
+# Warning: WAVEFORM: Signal /mux/A not found.
+# Warning: WAVEFORM: Signal /mux/B not found.
+# Warning: WAVEFORM: Signal /mux/S not found.
+# Warning: WAVEFORM: Signal /mux/Z not found.
+endsim
+#  Simulation has been stopped
+# add wave -noreg {/mux/A}
+# add wave -noreg {/mux/B}
+# add wave -noreg {/mux/S}
+# add wave -noreg {/mux/Z}
+# Warning: WAVEFORM: Object matching /mux/A not found in d:/Documents/Univer/kurs_4/semestr_7/software_of_digital_design/labs/lab_1/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /mux/B not found in d:/Documents/Univer/kurs_4/semestr_7/software_of_digital_design/labs/lab_1/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /mux/S not found in d:/Documents/Univer/kurs_4/semestr_7/software_of_digital_design/labs/lab_1/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /mux/Z not found in d:/Documents/Univer/kurs_4/semestr_7/software_of_digital_design/labs/lab_1/src/wave.asdb.
+# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
+asim -O5 +access +r +m+mux mux mux_arch
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5748 kB (elbread=1023 elab2=4633 kernel=90 sdf=0)
+# KERNEL: ASDB file was created in location d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb
+#  14:23, воскресенье, 1 окт€бр€ 2017 г.
+#  Simulation has been initialized
+#  Selected Top-Level: mux (mux_arch)
+# add wave -noreg {/mux/A}
+# add wave -noreg {/mux/B}
+# add wave -noreg {/mux/S}
+# add wave -noreg {/mux/Z}
+# 4 signal(s) traced.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+run 40 ns
+# KERNEL: stopped at time: 140 ns
+run 40 ns
+# KERNEL: stopped at time: 180 ns
+endsim
+#  Simulation has been stopped
+asim -O5 +access +r +m+mux mux mux_arch
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5748 kB (elbread=1023 elab2=4633 kernel=90 sdf=0)
+# KERNEL: ASDB file was created in location d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb
+#  14:30, воскресенье, 1 окт€бр€ 2017 г.
+#  Simulation has been initialized
+#  Selected Top-Level: mux (mux_arch)
+run 40 ns
+# KERNEL: stopped at time: 40 ns
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5748 kB (elbread=1023 elab2=4633 kernel=90 sdf=0)
+# KERNEL: ASDB file was created in location d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb
+#  14:30, воскресенье, 1 окт€бр€ 2017 г.
+#  Simulation has been initialized
+#  Selected Top-Level: mux (mux_arch)
+# add wave -noreg {/mux/A}
+# add wave -noreg {/mux/B}
+# add wave -noreg {/mux/S}
+# add wave -noreg {/mux/Z}
+# 4 signal(s) traced.
+run 40 ns
+# KERNEL: stopped at time: 40 ns
+# Adding file d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\mux_simulation.awc ... Done
+# Adding file d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\mux_simulation.awc ... Done
+# Adding file d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\mux_simulation.awc ... Done
+# Adding file d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\mux_simulation.awc ... Done
+# Adding file d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\mux_simulation.awc ... Done
+# Adding file d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\mux_simulation.awc ... Done
+# Adding file d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\mux_simulation.awc ... Done
+# Adding file d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\mux_simulation.awc ... Done
+# Adding file d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\mux_simulation.awc ... Done
+# Adding file d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\mux_simulation.awc ... Done
+endsim
+#  Simulation has been stopped
+asim -O5 +access +r +m+mux mux mux_arch
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5748 kB (elbread=1023 elab2=4633 kernel=90 sdf=0)
+# KERNEL: ASDB file was created in location d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb
+#  14:45, воскресенье, 1 окт€бр€ 2017 г.
+#  Simulation has been initialized
+#  Selected Top-Level: mux (mux_arch)
+endsim
+#  Simulation has been stopped
+acom -O3 -work lab_1 -2002  $dsn/src/XOR.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\XOR.vhd
+# Compile Entity "\XOR\"
+# Compile Architecture "XOR_arch" of Entity "\XOR\"
+# Error: COMP96_0329: XOR.vhd : (23, 2): Generate statement must have a label.
+# Error: COMP96_0019: XOR.vhd : (23, 21): Keyword 'generate' expected.
+# Error: COMP96_0019: XOR.vhd : (25, 2): Keyword 'end' expected.
+# Error: COMP96_0016: XOR.vhd : (25, 7): Design unit declaration expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -work lab_1 -2002  $dsn/src/XOR.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\XOR.vhd
+# Compile Entity "\XOR\"
+# Compile Architecture "XOR_arch" of Entity "\XOR\"
+# Error: COMP96_0019: XOR.vhd : (31, 6): Keyword 'if' expected.
+# Error: COMP96_0015: XOR.vhd : (31, 6): ';' expected.
+# Error: COMP96_0019: XOR.vhd : (32, 5): Keyword 'if' expected.
+# Error: COMP96_0358: XOR.vhd : (32, 5): Statement is not labeled.
+# Error: COMP96_0019: XOR.vhd : (33, 0): Keyword 'end' expected.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -O3 -work lab_1 -2002  $dsn/src/XOR.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\XOR.vhd
+# Compile Entity "\XOR\"
+# Compile Architecture "XOR_arch" of Entity "\XOR\"
+# Error: COMP96_0019: XOR.vhd : (32, 6): Keyword 'if' expected.
+# Error: COMP96_0015: XOR.vhd : (32, 6): ';' expected.
+# Error: COMP96_0019: XOR.vhd : (33, 5): Keyword 'process' expected.
+# Error: COMP96_0019: XOR.vhd : (34, 0): Keyword 'end' expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -work lab_1 -2002  $dsn/src/XOR.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\XOR.vhd
+# Compile Entity "\XOR\"
+# Compile Architecture "XOR_arch" of Entity "\XOR\"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -work lab_1 -2002  $dsn/src/XOR.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\XOR.vhd
+# Compile Entity "\XOR\"
+# Compile Architecture "XOR_arch" of Entity "\XOR\"
+# Error: COMP96_0018: XOR.vhd : (32, 2): Identifier expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -work lab_1 -2002  $dsn/src/XOR.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\XOR.vhd
+# Compile Entity "\XOR\"
+# Compile Architecture "XOR_arch" of Entity "\XOR\"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -work lab_1 -2002  $dsn/src/XOR.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\XOR.vhd
+# Compile Entity "\XOR\"
+# Compile Architecture "XOR_arch" of Entity "\XOR\"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -work lab_1 -2002  $dsn/src/XOR.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\XOR.vhd
+# Compile Entity "\XOR\"
+# Compile Architecture "XOR_arch" of Entity "\XOR\"
+# Warning: ELAB1_0026: XOR.vhd : (38, 0): There is no default binding for component "and2". (No entity named "and2" was found).
+# Compile success 0 Errors 1 Warnings  Analysis time :  32.0 [ms]
+acom -O3 -work lab_1 -2002  $dsn/src/XOR.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\XOR.vhd
+# Compile Entity "\XOR\"
+# Compile Architecture "XOR_arch" of Entity "\XOR\"
+# Error: COMP96_0015: XOR.vhd : (47, 15): ';' expected.
+# Error: COMP96_0019: XOR.vhd : (47, 15): Keyword 'end' expected.
+# Error: COMP96_0016: XOR.vhd : (47, 18): Design unit declaration expected.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  32.0 [ms]
+acom -O3 -work lab_1 -2002  $dsn/src/XOR.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\XOR.vhd
+# Compile Entity "\XOR\"
+# Compile Architecture "XOR_arch" of Entity "\XOR\"
+# Warning: ELAB1_0026: XOR.vhd : (44, 0): There is no default binding for component "and2". (No entity named "and2" was found).
+# Warning: ELAB1_0026: XOR.vhd : (45, 0): There is no default binding for component "inv". (No entity named "inv" was found).
+# Warning: ELAB1_0026: XOR.vhd : (46, 0): There is no default binding for component "or2". (No entity named "or2" was found).
+# Compile success 0 Errors 3 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -work lab_1 -2002  $dsn/src/and2.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\and2.vhd
+# Compile Entity "and2"
+# Compile Architecture "and2_arch" of Entity "and2"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -work lab_1 -2002  $dsn/src/or2.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\or2.vhd
+# Compile Entity "or2"
+# Compile Architecture "or2_arch" of Entity "or2"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom -O3 -work lab_1 -2002  $dsn/src/inv.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\inv.vhd
+# Compile Entity "inv"
+# Compile Architecture "inv_arch" of Entity "inv"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -work lab_1 -2002  $dsn/src/XOR.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\XOR.vhd
+# Compile Entity "\XOR\"
+# Compile Architecture "XOR_arch" of Entity "\XOR\"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -work lab_1 -2002  $dsn/src/xor2.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\xor2.vhd
+# Compile Entity "xor2"
+# Compile Architecture "xor2_arch" of Entity "xor2"
+# Error: COMP96_0111: xor2.vhd : (48, 5): Labels do not match.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -work lab_1 -2002  $dsn/src/xor2.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\xor2.vhd
+# Compile Entity "xor2"
+# Compile Architecture "xor2_arch" of Entity "xor2"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -work lab_1 -2002  $dsn/src/XOR4.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\XOR4.vhd
+# Compile Entity "XOR4"
+# Compile Architecture "XOR4_arch" of Entity "XOR4"
+# Error: COMP96_0018: XOR4.vhd : (28, 2): Identifier expected.
+# Error: COMP96_0015: XOR4.vhd : (35, 2): ';' expected.
+# Error: COMP96_0019: XOR4.vhd : (37, 5): Keyword 'generate' expected.
+# Error: COMP96_0019: XOR4.vhd : (38, 0): Keyword 'end' expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -work lab_1 -2002  $dsn/src/XOR4.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\XOR4.vhd
+# Compile Entity "XOR4"
+# Compile Architecture "XOR4_arch" of Entity "XOR4"
+# Error: COMP96_0015: XOR4.vhd : (35, 2): ';' expected.
+# Error: COMP96_0019: XOR4.vhd : (37, 5): Keyword 'generate' expected.
+# Error: COMP96_0019: XOR4.vhd : (38, 0): Keyword 'end' expected.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -work lab_1 -2002  $dsn/src/XOR4.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\XOR4.vhd
+# Compile Entity "XOR4"
+# Compile Architecture "XOR4_arch" of Entity "XOR4"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim -O5 +access +r +m+mux mux mux_arch
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5748 kB (elbread=1023 elab2=4633 kernel=90 sdf=0)
+# KERNEL: ASDB file was created in location d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb
+#  15:17, воскресенье, 1 окт€бр€ 2017 г.
+#  Simulation has been initialized
+#  Selected Top-Level: mux (mux_arch)
+#  Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# add wave -noreg {/and2/A}
+# add wave -noreg {/and2/B}
+# add wave -noreg {/and2/Z}
+# Warning: WAVEFORM: Object matching /and2/A not found in d:/Documents/Univer/kurs_4/semestr_7/software_of_digital_design/labs/lab_1/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /and2/B not found in d:/Documents/Univer/kurs_4/semestr_7/software_of_digital_design/labs/lab_1/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /and2/Z not found in d:/Documents/Univer/kurs_4/semestr_7/software_of_digital_design/labs/lab_1/src/wave.asdb.
+asim -O5 +access +r +m+and2 and2 and2_arch
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5748 kB (elbread=1023 elab2=4633 kernel=90 sdf=0)
+# KERNEL: ASDB file was created in location d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb
+#  15:19, воскресенье, 1 окт€бр€ 2017 г.
+#  Simulation has been initialized
+#  Selected Top-Level: and2 (and2_arch)
+# add wave -noreg {/and2/A}
+# add wave -noreg {/and2/B}
+# add wave -noreg {/and2/Z}
+# 3 signal(s) traced.
+run 20 ns
+# KERNEL: stopped at time: 20 ns
+# Adding file d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\and2_simulation.awc ... Done
+#  Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+XOR4 XOR4 XOR4_arch
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Fatal Error: ELAB2_0013 XOR4.vhd (34): Index 3 is out of range (0 to 2) of "X".
+# ELAB2: Last instance before error: /XOR4/g1__2/cj
+# KERNEL: Error: E8005 : Kernel process initialization failed.
+# Error: Fatal error occurred during simulation initialization.
+acom -O3 -work lab_1 -2002  $dsn/src/XOR4.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\XOR4.vhd
+# Compile Entity "XOR4"
+# Compile Architecture "XOR4_arch" of Entity "XOR4"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim -O5 +access +r +m+XOR4 XOR4 XOR4_arch
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Fatal Error: ELAB2_0013 XOR4.vhd (34): Index 3 is out of range (0 to 2) of "X".
+# ELAB2: Last instance before error: /XOR4/g1__2/cj
+# KERNEL: Error: E8005 : Kernel process initialization failed.
+# Error: Fatal error occurred during simulation initialization.
+# Design Status: 'lab_1' status has been successfully generated to 'DESIGN_STATUS\2017_10_01_15_31\'.
+acom -O3 -work lab_1 -2002  $dsn/src/xor4.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\xor4.vhd
+# Compile Entity "xor4"
+# Compile Architecture "xor4_arch" of Entity "xor4"
+# Error: COMP96_0019: xor4.vhd : (22, 1): Keyword 'end' expected.
+# Error: COMP96_0016: xor4.vhd : (22, 11): Design unit declaration expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -work lab_1 -2002  $dsn/src/xor4.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\xor4.vhd
+# Compile Entity "xor4"
+# Compile Architecture "xor4_arch" of Entity "xor4"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -work lab_1 -2002  $dsn/src/xor4.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\xor4.vhd
+# Compile Entity "xor4"
+# Compile Architecture "xor4_arch" of Entity "xor4"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+XOR4 XOR4 xor4_arch
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6007 kB (elbread=1023 elab2=4891 kernel=91 sdf=0)
+# KERNEL: ASDB file was created in location d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb
+#  15:35, воскресенье, 1 окт€бр€ 2017 г.
+#  Simulation has been initialized
+#  Selected Top-Level: XOR4 (xor4_arch)
+# add wave -noreg {/XOR4/A}
+# add wave -noreg {/XOR4/Z}
+# 2 signal(s) traced.
+run 80 ns
+# KERNEL: stopped at time: 80 ns
+acom -O3 -work lab_1 -2002  $dsn/src/deviceFromTaskB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\deviceFromTaskB.vhd
+# Compile Entity "deviceFromTaskB"
+# Compile Architecture "deviceFromTaskB_arch" of Entity "deviceFromTaskB"
+# Error: COMP96_0661: deviceFromTaskB.vhd : (24, 14): Expression with a sequence of different logical operators is not allowed. Parenthesize subexpressions containing and, or, xor, and xnor operators.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -work lab_1 -2002  $dsn/src/deviceFromTaskB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\deviceFromTaskB.vhd
+# Compile Entity "deviceFromTaskB"
+# Compile Architecture "deviceFromTaskB_arch" of Entity "deviceFromTaskB"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -work lab_1 -2002  $dsn/src/deviceFromTaskB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\deviceFromTaskB.vhd
+# Compile Entity "deviceFromTaskB"
+# Compile Architecture "deviceFromTaskB_arch" of Entity "deviceFromTaskB"
+# Error: COMP96_0661: deviceFromTaskB.vhd : (24, 14): Expression with a sequence of different logical operators is not allowed. Parenthesize subexpressions containing and, or, xor, and xnor operators.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  32.0 [ms]
+acom -O3 -work lab_1 -2002  $dsn/src/deviceFromTaskB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\deviceFromTaskB.vhd
+# Compile Entity "deviceFromTaskB"
+# Compile Architecture "deviceFromTaskB_arch" of Entity "deviceFromTaskB"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+#  Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# add wave -noreg {/devicefromtaskb/a}
+# add wave -noreg {/devicefromtaskb/b}
+# add wave -noreg {/devicefromtaskb/c}
+# add wave -noreg {/devicefromtaskb/q}
+# Warning: WAVEFORM: Object matching /devicefromtaskb/a not found in d:/Documents/Univer/kurs_4/semestr_7/software_of_digital_design/labs/lab_1/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /devicefromtaskb/b not found in d:/Documents/Univer/kurs_4/semestr_7/software_of_digital_design/labs/lab_1/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /devicefromtaskb/c not found in d:/Documents/Univer/kurs_4/semestr_7/software_of_digital_design/labs/lab_1/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /devicefromtaskb/q not found in d:/Documents/Univer/kurs_4/semestr_7/software_of_digital_design/labs/lab_1/src/wave.asdb.
+asim -O5 +access +r +m+deviceFromTaskB deviceFromTaskB deviceFromTaskB_arch
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5748 kB (elbread=1023 elab2=4633 kernel=90 sdf=0)
+# KERNEL: ASDB file was created in location d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb
+#  15:45, воскресенье, 1 окт€бр€ 2017 г.
+#  Simulation has been initialized
+#  Selected Top-Level: deviceFromTaskB (deviceFromTaskB_arch)
+# add wave -noreg {/deviceFromTaskB/a}
+# add wave -noreg {/deviceFromTaskB/b}
+# add wave -noreg {/deviceFromTaskB/c}
+# add wave -noreg {/deviceFromTaskB/q}
+# 4 signal(s) traced.
+run 40 ns
+# KERNEL: stopped at time: 40 ns
+endsim
+#  Simulation has been stopped
+asim -O5 +access +r +m+deviceFromTaskB deviceFromTaskB deviceFromTaskB_arch
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+acom -O3 -work lab_1 -2002  $dsn/src/deviceFromTaskB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\deviceFromTaskB.vhd
+# Compile Entity "deviceFromTaskB"
+# Error: COMP96_0018: deviceFromTaskB.vhd : (20, 7): Identifier expected.
+# Compile Architecture "deviceFromTaskB_arch" of Entity "deviceFromTaskB"
+# Error: COMP96_0078: deviceFromTaskB.vhd : (28, 2): Unknown identifier "nq".
+# Error: COMP96_0133: deviceFromTaskB.vhd : (28, 2): Cannot find object declaration.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  47.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5748 kB (elbread=1023 elab2=4633 kernel=90 sdf=0)
+# KERNEL: ASDB file was created in location d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb
+#  15:48, воскресенье, 1 окт€бр€ 2017 г.
+#  Simulation has been initialized
+#  Selected Top-Level: deviceFromTaskB (deviceFromTaskB_arch)
+acom -O3 -work lab_1 -2002  $dsn/src/deviceFromTaskB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\deviceFromTaskB.vhd
+# Compile Entity "deviceFromTaskB"
+# Error: COMP96_0018: deviceFromTaskB.vhd : (20, 7): Identifier expected.
+# Compile Architecture "deviceFromTaskB_arch" of Entity "deviceFromTaskB"
+# Error: COMP96_0078: deviceFromTaskB.vhd : (28, 2): Unknown identifier "nq".
+# Error: COMP96_0133: deviceFromTaskB.vhd : (28, 2): Cannot find object declaration.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -work lab_1 -2002  $dsn/src/deviceFromTaskB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\deviceFromTaskB.vhd
+# Compile Entity "deviceFromTaskB"
+# Compile Architecture "deviceFromTaskB_arch" of Entity "deviceFromTaskB"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6004 kB (elbread=1023 elab2=4889 kernel=90 sdf=0)
+# KERNEL: ASDB file was created in location d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb
+#  15:49, воскресенье, 1 окт€бр€ 2017 г.
+#  Simulation has been initialized
+#  Selected Top-Level: deviceFromTaskB (deviceFromTaskB_arch)
+# add wave -noreg {/deviceFromTaskB/a}
+# add wave -noreg {/deviceFromTaskB/b}
+# add wave -noreg {/deviceFromTaskB/c}
+# add wave -noreg {/deviceFromTaskB/q}
+# add wave -noreg {/deviceFromTaskB/nq}
+# 5 signal(s) traced.
+run 40 ns
+# KERNEL: stopped at time: 40 ns
+acom -O3 -work lab_1 -2002  $dsn/src/mux2.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\mux2.vhd
+# Compile Entity "mux2"
+# Compile Architecture "mux2_arch" of Entity "mux2"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+endsim
+#  Simulation has been stopped
+asim -O5 +access +r +m+deviceFromTaskB deviceFromTaskB deviceFromTaskB_arch
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6004 kB (elbread=1023 elab2=4889 kernel=90 sdf=0)
+# KERNEL: ASDB file was created in location d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb
+#  15:57, воскресенье, 1 окт€бр€ 2017 г.
+#  Simulation has been initialized
+#  Selected Top-Level: deviceFromTaskB (deviceFromTaskB_arch)
+#  Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# add wave -noreg {/mux2/a}
+# add wave -noreg {/mux2/b}
+# add wave -noreg {/mux2/c}
+# add wave -noreg {/mux2/d}
+# add wave -noreg {/mux2/s}
+# add wave -noreg {/mux2/y}
+# add wave -noreg {/mux2/z}
+# Warning: WAVEFORM: Object matching /mux2/a not found in d:/Documents/Univer/kurs_4/semestr_7/software_of_digital_design/labs/lab_1/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /mux2/b not found in d:/Documents/Univer/kurs_4/semestr_7/software_of_digital_design/labs/lab_1/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /mux2/c not found in d:/Documents/Univer/kurs_4/semestr_7/software_of_digital_design/labs/lab_1/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /mux2/d not found in d:/Documents/Univer/kurs_4/semestr_7/software_of_digital_design/labs/lab_1/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /mux2/s not found in d:/Documents/Univer/kurs_4/semestr_7/software_of_digital_design/labs/lab_1/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /mux2/y not found in d:/Documents/Univer/kurs_4/semestr_7/software_of_digital_design/labs/lab_1/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /mux2/z not found in d:/Documents/Univer/kurs_4/semestr_7/software_of_digital_design/labs/lab_1/src/wave.asdb.
+asim -O5 +access +r +m+mux2 mux2 mux2_arch
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6004 kB (elbread=1023 elab2=4889 kernel=90 sdf=0)
+# KERNEL: ASDB file was created in location d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb
+#  15:57, воскресенье, 1 окт€бр€ 2017 г.
+#  Simulation has been initialized
+#  Selected Top-Level: mux2 (mux2_arch)
+# add wave -noreg {/mux2/a}
+# add wave -noreg {/mux2/b}
+# add wave -noreg {/mux2/c}
+# add wave -noreg {/mux2/d}
+# add wave -noreg {/mux2/s}
+# add wave -noreg {/mux2/y}
+# add wave -noreg {/mux2/z}
+# 7 signal(s) traced.
+run 160 ns
+# KERNEL: stopped at time: 160 ns
+acom -O3 -work lab_1 -2002  $dsn/src/mux2.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\mux2.vhd
+# Compile Entity "mux2"
+# Compile Architecture "mux2_arch" of Entity "mux2"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+run 160 ns
+# KERNEL: stopped at time: 320 ns
+endsim
+#  Simulation has been stopped
+asim -O5 +access +r +m+mux2 mux2 mux2_arch
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6004 kB (elbread=1023 elab2=4889 kernel=90 sdf=0)
+# KERNEL: ASDB file was created in location d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb
+#  15:59, воскресенье, 1 окт€бр€ 2017 г.
+#  Simulation has been initialized
+#  Selected Top-Level: mux2 (mux2_arch)
+# add wave -noreg {/mux2/a}
+# add wave -noreg {/mux2/b}
+# add wave -noreg {/mux2/c}
+# add wave -noreg {/mux2/d}
+# add wave -noreg {/mux2/s}
+# add wave -noreg {/mux2/y}
+# add wave -noreg {/mux2/z}
+# 7 signal(s) traced.
+run 160 ns
+# KERNEL: stopped at time: 160 ns
+run 320 ns
+# KERNEL: stopped at time: 480 ns
+run 160 ns
+# KERNEL: stopped at time: 640 ns
+endsim
+#  Simulation has been stopped
+asim -O5 +access +r +m+mux2 mux2 mux2_arch
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6004 kB (elbread=1023 elab2=4889 kernel=90 sdf=0)
+# KERNEL: ASDB file was created in location d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb
+#  16:01, воскресенье, 1 окт€бр€ 2017 г.
+#  Simulation has been initialized
+#  Selected Top-Level: mux2 (mux2_arch)
+run 160 ns
+# KERNEL: stopped at time: 160 ns
+# add wave -noreg {/mux2/a}
+# add wave -noreg {/mux2/b}
+# add wave -noreg {/mux2/c}
+# add wave -noreg {/mux2/d}
+# add wave -noreg {/mux2/s}
+# add wave -noreg {/mux2/y}
+# add wave -noreg {/mux2/z}
+# 7 signal(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6004 kB (elbread=1023 elab2=4889 kernel=90 sdf=0)
+# KERNEL: ASDB file was created in location d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_1\src\wave.asdb
+#  16:01, воскресенье, 1 окт€бр€ 2017 г.
+#  Simulation has been initialized
+#  Selected Top-Level: mux2 (mux2_arch)
+# KERNEL: Signal '/mux2/a' has already been traced
+# KERNEL: Signal '/mux2/b' has already been traced
+# KERNEL: Signal '/mux2/c' has already been traced
+# KERNEL: Signal '/mux2/d' has already been traced
+# KERNEL: Signal '/mux2/s' has already been traced
+# KERNEL: Signal '/mux2/y' has already been traced
+# KERNEL: Signal '/mux2/z' has already been traced
+run 160 ns
+# KERNEL: stopped at time: 160 ns
+#  Simulation has been stopped

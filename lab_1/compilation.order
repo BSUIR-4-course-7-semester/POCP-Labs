@@ -1,0 +1,8 @@
+.\src\mux.vhd
+.\src\xor2.vhd
+.\src\and2.vhd
+.\src\or2.vhd
+.\src\inv.vhd
+.\src\xor4.vhd
+.\src\deviceFromTaskB.vhd
+.\src\mux2.vhd

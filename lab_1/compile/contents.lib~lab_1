@@ -1,0 +1,19 @@
+104
+~E 1 "./src/XOR.vhd" 13 \XOR\
+~A 1 "./src/XOR.vhd" 21 XOR_arch
+~E 1 "./src/and2.vhd" 13 and2
+~A 1 "./src/and2.vhd" 21 and2_arch
+~E 1 "./src/deviceFromTaskB.vhd" 13 deviceFromTaskB
+~A 1 "./src/deviceFromTaskB.vhd" 23 deviceFromTaskB_arch
+~E 1 "./src/inv.vhd" 13 inv
+~A 1 "./src/inv.vhd" 20 inv_arch
+~E 1 "./src/mux.vhd" 14 mux
+~A 1 "./src/mux.vhd" 23 mux_arch
+~E 1 "./src/mux2.vhd" 13 mux2
+~A 1 "./src/mux2.vhd" 25 mux2_arch
+~E 1 "./src/or2.vhd" 13 or2
+~A 1 "./src/or2.vhd" 21 or2_arch
+~E 1 "./src/xor2.vhd" 13 xor2
+~A 1 "./src/xor2.vhd" 21 xor2_arch
+~E 1 "./src/xor4.vhd" 13 XOR4
+~A 1 "./src/xor4.vhd" 20 xor4_arch

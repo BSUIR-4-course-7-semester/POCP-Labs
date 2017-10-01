@@ -1,0 +1,65 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=lab_1
+
+[Library]
+lab_1=.\lab_1.LIB
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+lab_1=.
+Active_lib=
+
+[Groups]
+
+[Files]
+/mux.vhd=-1
+/xor2.vhd=-1
+/and2.vhd=-1
+/or2.vhd=-1
+/inv.vhd=-1
+/xor4.vhd=-1
+/deviceFromTaskB.vhd=-1
+/mux2.vhd=-1
+
+[Files.Data]
+.\src\mux.vhd=VHDL Source Code
+.\src\xor2.vhd=VHDL Source Code
+.\src\and2.vhd=VHDL Source Code
+.\src\or2.vhd=VHDL Source Code
+.\src\inv.vhd=VHDL Source Code
+.\src\xor4.vhd=VHDL Source Code
+.\src\deviceFromTaskB.vhd=VHDL Source Code
+.\src\mux2.vhd=VHDL Source Code
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=and2|and2_arch|0 devicefromtaskb|deviceFromTaskB_arch|0 mux|mux_arch|0 mux2|mux2_arch|0 xor4|xor4_arch|0 
+ShowHide=ShowTopLevel
+Selected=
