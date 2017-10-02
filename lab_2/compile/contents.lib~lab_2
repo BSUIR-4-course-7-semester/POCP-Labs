@@ -1,4 +1,4 @@
-383
+422
 ~E 1 "./src/mux.vhd" 15 mux
 ~A 1 "./src/mux.vhd" 24 mux_arch
 ~E 1 "./src/mux2.vhd" 13 mux2

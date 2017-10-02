@@ -1,0 +1,1222 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.1 [s].
+acom -O3 -work lab_2 -2002  $dsn/src/nor2.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\nor2.vhd
+# Compile Entity "nor2"
+# Compile Architecture "nor2_arch" of Entity "nor2"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+asim -O5 +access +r +m+var5_behavioral var5_behavioral var5_behavioral_arch
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5748 kB (elbread=1023 elab2=4634 kernel=90 sdf=0)
+# KERNEL: ASDB file was created in location d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\wave.asdb
+#  22:40, понедельник, 2 окт€бр€ 2017 г.
+#  Simulation has been initialized
+#  Selected Top-Level: var5_behavioral (var5_behavioral_arch)
+# add wave -noreg {/var5_behavioral/w}
+# add wave -noreg {/var5_behavioral/x}
+# add wave -noreg {/var5_behavioral/y}
+# add wave -noreg {/var5_behavioral/z}
+# add wave -noreg {/var5_behavioral/f}
+# 5 signal(s) traced.
+run 40 ns
+# KERNEL: stopped at time: 40 ns
+SetActiveLib -work
+comp -include "$dsn\src\var5_behavioral.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_behavioral.vhd
+# Compile Entity "var5_behavioral"
+# Compile Architecture "var5_behavioral_arch" of Entity "var5_behavioral"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+comp -include "$dsn\src\var5_TestBench\var5_TB.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_TestBench\var5_TB.vhd
+# Compile Entity "var5_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "var5_tb"
+# Compile Configuration "TESTBENCH_FOR_var5_behavioral"
+# Compile success 0 Errors 0 Warnings  Analysis time :  46.0 [ms]
+asim +access +r TESTBENCH_FOR_var5_behavioral 
+#  Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5748 kB (elbread=1023 elab2=4634 kernel=90 sdf=0)
+# KERNEL: ASDB file was created in location d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\wave.asdb
+#  23:23, понедельник, 2 окт€бр€ 2017 г.
+#  Simulation has been initialized
+#  Selected Top-Level: testbench_for_var5_behavioral
+wave 
+wave -noreg w
+wave -noreg x
+wave -noreg y
+wave -noreg z
+wave -noreg f
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\var5_TestBench\var5_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_var5_behavioral 
+# 5 signal(s) traced.
+SetActiveLib -work
+comp -include "$dsn\src\var5_behavioral.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_behavioral.vhd
+# Compile Entity "var5_behavioral"
+# Compile Architecture "var5_behavioral_arch" of Entity "var5_behavioral"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+comp -include "$dsn\src\var5_TestBench\var5_TB.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_TestBench\var5_TB.vhd
+# Compile Entity "var5_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "var5_tb"
+# Error: COMP96_0015: var5_TB.vhd : (61, 8): ';' expected.
+# Error: COMP96_0015: var5_TB.vhd : (70, 9): ';' expected.
+# Error: COMP96_0029: var5_TB.vhd : (76, 9): Expression expected.
+# Error: COMP96_0015: var5_TB.vhd : (77, 9): ';' expected.
+# Error: COMP96_0015: var5_TB.vhd : (87, 9): ';' expected.
+# Error: COMP96_0029: var5_TB.vhd : (93, 9): Expression expected.
+# Error: COMP96_0015: var5_TB.vhd : (94, 9): ';' expected.
+# Error: COMP96_0015: var5_TB.vhd : (104, 9): ';' expected.
+# Error: COMP96_0029: var5_TB.vhd : (110, 9): Expression expected.
+# Error: COMP96_0015: var5_TB.vhd : (111, 9): ';' expected.
+# Error: COMP96_0015: var5_TB.vhd : (121, 9): ';' expected.
+# Error: COMP96_0029: var5_TB.vhd : (127, 9): Expression expected.
+# Error: COMP96_0015: var5_TB.vhd : (128, 9): ';' expected.
+# Compile Configuration "TESTBENCH_FOR_var5_behavioral"
+# Compile failure 13 Errors 0 Warnings  Analysis time :  47.0 [ms]
+# Error: DO_001 in file d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_TestBench\var5_TB_runtest.do line 3
+# Error: Cannot run d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_TestBench\var5_TB_runtest.do
+SetActiveLib -work               
+comp -include "$dsn\src\var5_behavioral.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_behavioral.vhd
+# Compile Entity "var5_behavioral"
+# Compile Architecture "var5_behavioral_arch" of Entity "var5_behavioral"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+comp -include "$dsn\src\var5_structural.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_structural.vhd
+# Compile Entity "var5_str"
+# Compile Architecture "var5_str_arch" of Entity "var5_str"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+comp -include "$dsn\src\var5_TestBench\var5_TB.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_TestBench\var5_TB.vhd
+# Compile Entity "var5_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "var5_tb"
+# Error: COMP96_0015: var5_TB.vhd : (61, 8): ';' expected.
+# Error: COMP96_0015: var5_TB.vhd : (70, 9): ';' expected.
+# Error: COMP96_0029: var5_TB.vhd : (76, 9): Expression expected.
+# Error: COMP96_0015: var5_TB.vhd : (77, 9): ';' expected.
+# Error: COMP96_0015: var5_TB.vhd : (87, 9): ';' expected.
+# Error: COMP96_0029: var5_TB.vhd : (93, 9): Expression expected.
+# Error: COMP96_0015: var5_TB.vhd : (94, 9): ';' expected.
+# Error: COMP96_0015: var5_TB.vhd : (104, 9): ';' expected.
+# Error: COMP96_0029: var5_TB.vhd : (110, 9): Expression expected.
+# Error: COMP96_0015: var5_TB.vhd : (111, 9): ';' expected.
+# Error: COMP96_0015: var5_TB.vhd : (121, 9): ';' expected.
+# Error: COMP96_0029: var5_TB.vhd : (127, 9): Expression expected.
+# Error: COMP96_0015: var5_TB.vhd : (128, 9): ';' expected.
+# Compile Configuration "TESTBENCH_FOR_var5_behavioral"
+# Compile failure 13 Errors 0 Warnings  Analysis time :  47.0 [ms]
+# Error: DO_001 in file d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_TestBench\var5_TB_runtest.do line 4
+# Error: Cannot run d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_TestBench\var5_TB_runtest.do
+acom -O3 -work lab_2 -2002  $dsn/src/var5_TestBench/var5_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_TestBench\var5_TB.vhd
+# Compile Entity "var5_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "var5_tb"
+# Error: COMP96_0015: var5_TB.vhd : (55, 8): ';' expected.
+# Error: COMP96_0015: var5_TB.vhd : (64, 9): ';' expected.
+# Error: COMP96_0029: var5_TB.vhd : (70, 9): Expression expected.
+# Error: COMP96_0015: var5_TB.vhd : (71, 9): ';' expected.
+# Error: COMP96_0015: var5_TB.vhd : (81, 9): ';' expected.
+# Error: COMP96_0029: var5_TB.vhd : (87, 9): Expression expected.
+# Error: COMP96_0015: var5_TB.vhd : (88, 9): ';' expected.
+# Error: COMP96_0015: var5_TB.vhd : (98, 9): ';' expected.
+# Error: COMP96_0029: var5_TB.vhd : (104, 9): Expression expected.
+# Error: COMP96_0015: var5_TB.vhd : (105, 9): ';' expected.
+# Error: COMP96_0015: var5_TB.vhd : (115, 9): ';' expected.
+# Error: COMP96_0029: var5_TB.vhd : (121, 9): Expression expected.
+# Error: COMP96_0015: var5_TB.vhd : (122, 9): ';' expected.
+# Compile Configuration "TESTBENCH_FOR_var5_behavioral"
+# Compile failure 13 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -work lab_2 -2002  $dsn/src/var5_TestBench/var5_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_TestBench\var5_TB.vhd
+# Compile Entity "var5_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "var5_tb"
+# Error: COMP96_0015: var5_TB.vhd : (55, 8): ';' expected.
+# Error: COMP96_0015: var5_TB.vhd : (64, 9): ';' expected.
+# Error: COMP96_0015: var5_TB.vhd : (71, 9): ';' expected.
+# Error: COMP96_0015: var5_TB.vhd : (81, 9): ';' expected.
+# Error: COMP96_0015: var5_TB.vhd : (88, 9): ';' expected.
+# Error: COMP96_0015: var5_TB.vhd : (98, 9): ';' expected.
+# Error: COMP96_0015: var5_TB.vhd : (105, 9): ';' expected.
+# Error: COMP96_0015: var5_TB.vhd : (115, 9): ';' expected.
+# Error: COMP96_0015: var5_TB.vhd : (122, 9): ';' expected.
+# Compile Configuration "TESTBENCH_FOR_var5_behavioral"
+# Compile failure 9 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -O3 -work lab_2 -2002  $dsn/src/var5_TestBench/var5_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_TestBench\var5_TB.vhd
+# Compile Entity "var5_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "var5_tb"
+# Error: COMP96_0015: var5_TB.vhd : (55, 8): ';' expected.
+# Error: COMP96_0015: var5_TB.vhd : (64, 9): ';' expected.
+# Error: COMP96_0015: var5_TB.vhd : (71, 9): ';' expected.
+# Error: COMP96_0015: var5_TB.vhd : (81, 9): ';' expected.
+# Error: COMP96_0015: var5_TB.vhd : (88, 9): ';' expected.
+# Error: COMP96_0015: var5_TB.vhd : (98, 9): ';' expected.
+# Error: COMP96_0015: var5_TB.vhd : (105, 9): ';' expected.
+# Error: COMP96_0015: var5_TB.vhd : (115, 9): ';' expected.
+# Error: COMP96_0015: var5_TB.vhd : (122, 9): ';' expected.
+# Compile Configuration "TESTBENCH_FOR_var5_behavioral"
+# Compile failure 9 Errors 0 Warnings  Analysis time :  63.0 [ms]
+acom -O3 -work lab_2 -2002  $dsn/src/var5_TestBench/var5_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_TestBench\var5_TB.vhd
+# Compile Entity "var5_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "var5_tb"
+# Warning: ELAB1_0026: var5_TB.vhd : (44, 0): There is no default binding for component "var5_structural". (No entity named "var5_structural" was found).
+# Compile Configuration "TESTBENCH_FOR_var5_behavioral"
+# Error: COMP96_0213: var5_TB.vhd : (132, 7): Component instance "UUT : var5_behavioral" not found.
+# Compile failure 1 Errors 1 Warnings  Analysis time :  0.3 [s]
+acom -O3 -work lab_2 -2002  $dsn/src/var5_TestBench/var5_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_TestBench\var5_TB.vhd
+# Compile Entity "var5_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "var5_tb"
+# Warning: ELAB1_0026: var5_TB.vhd : (44, 0): There is no default binding for component "var5_structural". (No entity named "var5_structural" was found).
+# Compile Configuration "TESTBENCH_FOR_var5_behavioral"
+# Compile success 0 Errors 1 Warnings  Analysis time :  0.2 [s]
+SetActiveLib -work               
+comp -include "$dsn\src\var5_behavioral.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_behavioral.vhd
+# Compile Entity "var5_behavioral"
+# Compile Architecture "var5_behavioral_arch" of Entity "var5_behavioral"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+comp -include "$dsn\src\var5_structural.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_structural.vhd
+# Compile Entity "var5_str"
+# Compile Architecture "var5_str_arch" of Entity "var5_str"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+comp -include "$dsn\src\var5_TestBench\var5_TB.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_TestBench\var5_TB.vhd
+# Compile Entity "var5_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "var5_tb"
+# Warning: ELAB1_0026: var5_TB.vhd : (44, 0): There is no default binding for component "var5_structural". (No entity named "var5_structural" was found).
+# Compile Configuration "TESTBENCH_FOR_var5_behavioral"
+# Compile success 0 Errors 1 Warnings  Analysis time :  0.2 [s]
+asim +access +r TESTBENCH_FOR_var5_behavioral 
+#  Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Component /var5_tb/UUT2 : var5_structural not bound.
+# ELBREAD: Elaboration time 0.2 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5752 kB (elbread=1023 elab2=4637 kernel=90 sdf=0)
+# KERNEL: ASDB file was created in location d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\wave.asdb
+#  23:52, понедельник, 2 окт€бр€ 2017 г.
+#  Simulation has been initialized
+#  Selected Top-Level: testbench_for_var5_behavioral
+wave 
+wave -noreg w
+wave -noreg x
+wave -noreg y
+wave -noreg z
+wave -noreg f
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\var5_TestBench\var5_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_var5_behavioral 
+# 5 signal(s) traced.
+acom -O3 -work lab_2 -2002  $dsn/src/var5_TestBench/var5_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_TestBench\var5_TB.vhd
+# Compile Entity "var5_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "var5_tb"
+# Warning: ELAB1_0026: var5_TB.vhd : (44, 0): There is no default binding for component "var5_structural". (No entity named "var5_structural" was found).
+# Compile Configuration "TESTBENCH_FOR_var5_behavioral"
+# Compile Configuration "TESTBENCH_FOR_var5_stuctural"
+# Error: COMP96_0078: var5_TB.vhd : (141, 20): Unknown identifier "var5_structural".
+# Error: COMP96_0213: var5_TB.vhd : (140, 7): Component instance "UUT2 : var5_behavioral" not found.
+# Compile failure 2 Errors 1 Warnings  Analysis time :  0.2 [s]
+acom -O3 -work lab_2 -2002  $dsn/src/var5_TestBench/var5_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_TestBench\var5_TB.vhd
+# Compile Entity "var5_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "var5_tb"
+# Warning: ELAB1_0026: var5_TB.vhd : (44, 0): There is no default binding for component "var5_structural". (No entity named "var5_structural" was found).
+# Compile Configuration "TESTBENCH_FOR_var5_behavioral"
+# Error: COMP96_0078: var5_TB.vhd : (136, 20): Unknown identifier "var5_structural".
+# Compile failure 1 Errors 1 Warnings  Analysis time :  0.1 [s]
+acom -O3 -work lab_2 -2002  $dsn/src/var5_TestBench/var5_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_TestBench\var5_TB.vhd
+# Compile Entity "var5_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "var5_tb"
+# Error: COMP96_0134: var5_TB.vhd : (44, 9): Cannot find component declaration.
+# Compile Configuration "TESTBENCH_FOR_var5_behavioral"
+# Error: COMP96_0078: var5_TB.vhd : (136, 20): Unknown identifier "var5_structural".
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -work lab_2 -2002  $dsn/src/var5_TestBench/var5_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_TestBench\var5_TB.vhd
+# Compile Entity "var5_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "var5_tb"
+# Compile Configuration "TESTBENCH_FOR_var5_behavioral"
+# Error: COMP96_0134: var5_TB.vhd : (135, 14): Cannot find component declaration.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.3 [s]
+acom -O3 -work lab_2 -2002  $dsn/src/var5_TestBench/var5_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_TestBench\var5_TB.vhd
+# Compile Entity "var5_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "var5_tb"
+# Compile Configuration "TESTBENCH_FOR_var5_behavioral"
+# Error: COMP96_0078: var5_TB.vhd : (136, 20): Unknown identifier "var5_structural".
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -work lab_2 -2002  $dsn/src/var5_TestBench/var5_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_TestBench\var5_TB.vhd
+# Compile Entity "var5_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "var5_tb"
+# Compile Configuration "TESTBENCH_FOR_var5_behavioral"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+SetActiveLib -work               
+comp -include "$dsn\src\var5_behavioral.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_behavioral.vhd
+# Compile Entity "var5_behavioral"
+# Compile Architecture "var5_behavioral_arch" of Entity "var5_behavioral"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+comp -include "$dsn\src\var5_structural.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_structural.vhd
+# Compile Entity "var5_str"
+# Compile Architecture "var5_str_arch" of Entity "var5_str"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+comp -include "$dsn\src\var5_TestBench\var5_TB.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_TestBench\var5_TB.vhd
+# Compile Entity "var5_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "var5_tb"
+# Compile Configuration "TESTBENCH_FOR_var5_behavioral"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim +access +r TESTBENCH_FOR_var5_behavioral 
+#  Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6011 kB (elbread=1024 elab2=4896 kernel=91 sdf=0)
+# KERNEL: ASDB file was created in location d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\wave.asdb
+#  23:56, понедельник, 2 окт€бр€ 2017 г.
+#  Simulation has been initialized
+#  Selected Top-Level: testbench_for_var5_behavioral
+wave 
+wave -noreg w
+wave -noreg x
+wave -noreg y
+wave -noreg z
+wave -noreg f
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\var5_TestBench\var5_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_var5_behavioral 
+# 5 signal(s) traced.
+SetActiveLib -work               
+comp -include "$dsn\src\var5_behavioral.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_behavioral.vhd
+# Compile Entity "var5_behavioral"
+# Compile Architecture "var5_behavioral_arch" of Entity "var5_behavioral"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+comp -include "$dsn\src\var5_structural.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_structural.vhd
+# Compile Entity "var5_str"
+# Compile Architecture "var5_str_arch" of Entity "var5_str"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+comp -include "$dsn\src\var5_TestBench\var5_TB.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_TestBench\var5_TB.vhd
+# Compile Entity "var5_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "var5_tb"
+# Compile Configuration "TESTBENCH_FOR_var5_behavioral"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim +access +r TESTBENCH_FOR_var5_behavioral 
+#  Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6011 kB (elbread=1024 elab2=4896 kernel=91 sdf=0)
+# KERNEL: ASDB file was created in location d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\wave.asdb
+#  23:57, понедельник, 2 окт€бр€ 2017 г.
+#  Simulation has been initialized
+#  Selected Top-Level: testbench_for_var5_behavioral
+wave 
+wave -noreg w
+wave -noreg x
+wave -noreg y
+wave -noreg z
+wave -noreg f
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\var5_TestBench\var5_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_var5_behavioral 
+# 5 signal(s) traced.
+run 40 ns
+# KERNEL: stopped at time: 40 ns
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6011 kB (elbread=1024 elab2=4896 kernel=91 sdf=0)
+# KERNEL: ASDB file was created in location d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\wave.asdb
+#  23:57, понедельник, 2 окт€бр€ 2017 г.
+#  Simulation has been initialized
+#  Selected Top-Level: testbench_for_var5_behavioral
+# KERNEL: Signal '/var5_tb/w' has already been traced
+# KERNEL: Signal '/var5_tb/x' has already been traced
+# KERNEL: Signal '/var5_tb/y' has already been traced
+# KERNEL: Signal '/var5_tb/z' has already been traced
+# KERNEL: Signal '/var5_tb/f' has already been traced
+run 200 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+#  Simulation has been stopped
+SetActiveLib -work               
+comp -include "$dsn\src\var5_behavioral.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_behavioral.vhd
+# Compile Entity "var5_behavioral"
+# Compile Architecture "var5_behavioral_arch" of Entity "var5_behavioral"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+comp -include "$dsn\src\var5_structural.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_structural.vhd
+# Compile Entity "var5_str"
+# Compile Architecture "var5_str_arch" of Entity "var5_str"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+comp -include "$dsn\src\var5_TestBench\var5_TB.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_TestBench\var5_TB.vhd
+# Compile Entity "var5_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "var5_tb"
+# Compile Configuration "TESTBENCH_FOR_var5_behavioral"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim +access +r TESTBENCH_FOR_var5_behavioral 
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6011 kB (elbread=1024 elab2=4896 kernel=91 sdf=0)
+# KERNEL: ASDB file was created in location d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\wave.asdb
+#  23:59, понедельник, 2 окт€бр€ 2017 г.
+#  Simulation has been initialized
+#  Selected Top-Level: testbench_for_var5_behavioral
+wave 
+wave -noreg w
+wave -noreg x
+wave -noreg y
+wave -noreg z
+wave -noreg f
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\var5_TestBench\var5_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_var5_behavioral 
+# 5 signal(s) traced.
+run 400 ns
+# KERNEL: stopped at time: 400 ns
+acom -O3 -work lab_2 -2002  $dsn/src/var5_TestBench/var5_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_TestBench\var5_TB.vhd
+# Compile Entity "var5_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "var5_tb"
+# Error: COMP96_0078: var5_TB.vhd : (43, 11): Unknown identifier "f".
+# Error: COMP96_0078: var5_TB.vhd : (43, 4): Unknown identifier "f_b".
+# Error: COMP96_0133: var5_TB.vhd : (43, 4): Cannot find object declaration.
+# Error: COMP96_0112: var5_TB.vhd : (43, 4): "f_b" does not match the formal name.
+# Error: COMP96_0078: var5_TB.vhd : (51, 11): Unknown identifier "f".
+# Error: COMP96_0078: var5_TB.vhd : (51, 4): Unknown identifier "f_s".
+# Error: COMP96_0133: var5_TB.vhd : (51, 4): Cannot find object declaration.
+# Error: COMP96_0112: var5_TB.vhd : (51, 4): "f_s" does not match the formal name.
+# Compile Configuration "TESTBENCH_FOR_var5_behavioral"
+# Compile failure 8 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -work lab_2 -2002  $dsn/src/var5_TestBench/var5_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_TestBench\var5_TB.vhd
+# Compile Entity "var5_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "var5_tb"
+# Compile Configuration "TESTBENCH_FOR_var5_behavioral"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+SetActiveLib -work               
+comp -include "$dsn\src\var5_behavioral.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_behavioral.vhd
+# Compile Entity "var5_behavioral"
+# Compile Architecture "var5_behavioral_arch" of Entity "var5_behavioral"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+comp -include "$dsn\src\var5_structural.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_structural.vhd
+# Compile Entity "var5_str"
+# Compile Architecture "var5_str_arch" of Entity "var5_str"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+comp -include "$dsn\src\var5_TestBench\var5_TB.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_TestBench\var5_TB.vhd
+# Compile Entity "var5_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "var5_tb"
+# Compile Configuration "TESTBENCH_FOR_var5_behavioral"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim +access +r TESTBENCH_FOR_var5_behavioral 
+#  Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6011 kB (elbread=1024 elab2=4896 kernel=91 sdf=0)
+# KERNEL: ASDB file was created in location d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\wave.asdb
+#  0:03, вторник, 3 окт€бр€ 2017 г.
+#  Simulation has been initialized
+#  Selected Top-Level: testbench_for_var5_behavioral
+wave 
+wave -noreg w
+wave -noreg x
+wave -noreg y
+wave -noreg z
+wave -noreg f
+# No signals matching
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\var5_TestBench\var5_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_var5_behavioral 
+# 4 signal(s) traced.
+run 400 ns
+# KERNEL: stopped at time: 400 ns
+acom -O3 -work lab_2 -2002  $dsn/src/var5_TestBench/var5_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_TestBench\var5_TB.vhd
+# Compile Entity "var5_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "var5_tb"
+# Error: COMP96_0078: var5_TB.vhd : (131, 15): Unknown identifier "f_z".
+# Error: COMP96_0077: var5_TB.vhd : (131, 9): Undefined type of expression. Expected type 'BOOLEAN'.
+# Compile Configuration "TESTBENCH_FOR_var5_behavioral"
+# Compile failure 2 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -work lab_2 -2002  $dsn/src/var5_TestBench/var5_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_TestBench\var5_TB.vhd
+# Compile Entity "var5_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "var5_tb"
+# Error: COMP96_0077: var5_TB.vhd : (131, 9): Undefined type of expression. Expected type 'BOOLEAN'.
+# Compile Configuration "TESTBENCH_FOR_var5_behavioral"
+# Compile failure 1 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -work lab_2 -2002  $dsn/src/var5_TestBench/var5_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_TestBench\var5_TB.vhd
+# Compile Entity "var5_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "var5_tb"
+# Compile Configuration "TESTBENCH_FOR_var5_behavioral"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+SetActiveLib -work               
+comp -include "$dsn\src\var5_behavioral.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_behavioral.vhd
+# Compile Entity "var5_behavioral"
+# Compile Architecture "var5_behavioral_arch" of Entity "var5_behavioral"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+comp -include "$dsn\src\var5_structural.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_structural.vhd
+# Compile Entity "var5_str"
+# Compile Architecture "var5_str_arch" of Entity "var5_str"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+comp -include "$dsn\src\var5_TestBench\var5_TB.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_TestBench\var5_TB.vhd
+# Compile Entity "var5_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "var5_tb"
+# Compile Configuration "TESTBENCH_FOR_var5_behavioral"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim +access +r TESTBENCH_FOR_var5_behavioral 
+#  Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6012 kB (elbread=1024 elab2=4896 kernel=91 sdf=0)
+# KERNEL: ASDB file was created in location d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\wave.asdb
+#  0:09, вторник, 3 окт€бр€ 2017 г.
+#  Simulation has been initialized
+#  Selected Top-Level: testbench_for_var5_behavioral
+wave 
+wave -noreg w
+wave -noreg x
+wave -noreg y
+wave -noreg z
+wave -noreg f
+# No signals matching
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\var5_TestBench\var5_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_var5_behavioral 
+# 4 signal(s) traced.
+acom -O3 -work lab_2 -2002  $dsn/src/var5_TestBench/var5_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_TestBench\var5_TB.vhd
+# Compile Entity "var5_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "var5_tb"
+# Error: COMP96_0071: var5_TB.vhd : (131, 16): Operator "=" is not defined for such operands.
+# Error: COMP96_0077: var5_TB.vhd : (131, 9): Undefined type of expression. Expected type 'BOOLEAN'.
+# Compile Configuration "TESTBENCH_FOR_var5_behavioral"
+# Compile failure 2 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -work lab_2 -2002  $dsn/src/var5_TestBench/var5_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_TestBench\var5_TB.vhd
+# Compile Entity "var5_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "var5_tb"
+# Compile Configuration "TESTBENCH_FOR_var5_behavioral"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+SetActiveLib -work               
+comp -include "$dsn\src\var5_behavioral.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_behavioral.vhd
+# Compile Entity "var5_behavioral"
+# Compile Architecture "var5_behavioral_arch" of Entity "var5_behavioral"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+comp -include "$dsn\src\var5_structural.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_structural.vhd
+# Compile Entity "var5_str"
+# Compile Architecture "var5_str_arch" of Entity "var5_str"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+comp -include "$dsn\src\var5_TestBench\var5_TB.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_TestBench\var5_TB.vhd
+# Compile Entity "var5_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "var5_tb"
+# Compile Configuration "TESTBENCH_FOR_var5_behavioral"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim +access +r TESTBENCH_FOR_var5_behavioral 
+#  Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6012 kB (elbread=1024 elab2=4896 kernel=91 sdf=0)
+# KERNEL: ASDB file was created in location d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\wave.asdb
+#  0:10, вторник, 3 окт€бр€ 2017 г.
+#  Simulation has been initialized
+#  Selected Top-Level: testbench_for_var5_behavioral
+wave 
+wave -noreg w
+wave -noreg x
+wave -noreg y
+wave -noreg z
+wave -noreg f
+# No signals matching
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\var5_TestBench\var5_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_var5_behavioral 
+# 4 signal(s) traced.
+run 400 ns
+# EXECUTION:: NOTE   : Outputs from behavioral and structural implmentations are not equal.
+# EXECUTION:: Time: 0 ps,  Iteration: 0,  Instance: /var5_tb,  Process: ASSERT_OUTPUTS.
+# EXECUTION:: NOTE   : Outputs from behavioral and structural implmentations are not equal.
+# EXECUTION:: Time: 0 ps,  Iteration: 2,  Instance: /var5_tb,  Process: ASSERT_OUTPUTS.
+# EXECUTION:: NOTE   : Outputs from behavioral and structural implmentations are not equal.
+# EXECUTION:: Time: 75 ns,  Iteration: 5,  Instance: /var5_tb,  Process: ASSERT_OUTPUTS.
+# EXECUTION:: NOTE   : Outputs from behavioral and structural implmentations are not equal.
+# EXECUTION:: Time: 100 ns,  Iteration: 2,  Instance: /var5_tb,  Process: ASSERT_OUTPUTS.
+# EXECUTION:: NOTE   : Outputs from behavioral and structural implmentations are not equal.
+# EXECUTION:: Time: 175 ns,  Iteration: 5,  Instance: /var5_tb,  Process: ASSERT_OUTPUTS.
+# EXECUTION:: NOTE   : Outputs from behavioral and structural implmentations are not equal.
+# EXECUTION:: Time: 200 ns,  Iteration: 2,  Instance: /var5_tb,  Process: ASSERT_OUTPUTS.
+# EXECUTION:: NOTE   : Outputs from behavioral and structural implmentations are not equal.
+# EXECUTION:: Time: 350 ns,  Iteration: 6,  Instance: /var5_tb,  Process: ASSERT_OUTPUTS.
+# EXECUTION:: NOTE   : Outputs from behavioral and structural implmentations are not equal.
+# EXECUTION:: Time: 400 ns,  Iteration: 2,  Instance: /var5_tb,  Process: ASSERT_OUTPUTS.
+# KERNEL: stopped at time: 400 ns
+acom -O3 -work lab_2 -2002  $dsn/src/var5_TestBench/var5_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_TestBench\var5_TB.vhd
+# Compile Entity "var5_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "var5_tb"
+# Compile Configuration "TESTBENCH_FOR_var5_behavioral"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+SetActiveLib -work               
+comp -include "$dsn\src\var5_behavioral.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_behavioral.vhd
+# Compile Entity "var5_behavioral"
+# Compile Architecture "var5_behavioral_arch" of Entity "var5_behavioral"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+comp -include "$dsn\src\var5_structural.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_structural.vhd
+# Compile Entity "var5_str"
+# Compile Architecture "var5_str_arch" of Entity "var5_str"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+comp -include "$dsn\src\var5_TestBench\var5_TB.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_TestBench\var5_TB.vhd
+# Compile Entity "var5_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "var5_tb"
+# Compile Configuration "TESTBENCH_FOR_var5_behavioral"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim +access +r TESTBENCH_FOR_var5_behavioral 
+#  Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6012 kB (elbread=1024 elab2=4896 kernel=91 sdf=0)
+# KERNEL: ASDB file was created in location d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\wave.asdb
+#  0:11, вторник, 3 окт€бр€ 2017 г.
+#  Simulation has been initialized
+#  Selected Top-Level: testbench_for_var5_behavioral
+wave 
+wave -noreg w
+wave -noreg x
+wave -noreg y
+wave -noreg z
+wave -noreg f
+# No signals matching
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\var5_TestBench\var5_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_var5_behavioral 
+# 4 signal(s) traced.
+run 400 ns
+# EXECUTION:: NOTE   : Outputs from behavioral and structural implmentations are not equal.
+# EXECUTION:: Time: 0 ps,  Iteration: 2,  Instance: /var5_tb,  Process: ASSERT_OUTPUTS.
+# EXECUTION:: NOTE   : Outputs from behavioral and structural implmentations are not equal.
+# EXECUTION:: Time: 75 ns,  Iteration: 2,  Instance: /var5_tb,  Process: ASSERT_OUTPUTS.
+# EXECUTION:: NOTE   : Outputs from behavioral and structural implmentations are not equal.
+# EXECUTION:: Time: 100 ns,  Iteration: 2,  Instance: /var5_tb,  Process: ASSERT_OUTPUTS.
+# EXECUTION:: NOTE   : Outputs from behavioral and structural implmentations are not equal.
+# EXECUTION:: Time: 175 ns,  Iteration: 2,  Instance: /var5_tb,  Process: ASSERT_OUTPUTS.
+# EXECUTION:: NOTE   : Outputs from behavioral and structural implmentations are not equal.
+# EXECUTION:: Time: 200 ns,  Iteration: 2,  Instance: /var5_tb,  Process: ASSERT_OUTPUTS.
+# EXECUTION:: NOTE   : Outputs from behavioral and structural implmentations are not equal.
+# EXECUTION:: Time: 350 ns,  Iteration: 2,  Instance: /var5_tb,  Process: ASSERT_OUTPUTS.
+# EXECUTION:: NOTE   : Outputs from behavioral and structural implmentations are not equal.
+# EXECUTION:: Time: 400 ns,  Iteration: 2,  Instance: /var5_tb,  Process: ASSERT_OUTPUTS.
+# KERNEL: stopped at time: 400 ns
+acom -O3 -work lab_2 -2002  $dsn/src/var5_TestBench/var5_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_TestBench\var5_TB.vhd
+# Compile Entity "var5_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "var5_tb"
+# Compile Configuration "TESTBENCH_FOR_var5_behavioral"
+# Error: COMP96_0019: var5_TB.vhd : (140, 29): Keyword 'end' expected.
+# Error: COMP96_0016: var5_TB.vhd : (140, 31): Design unit declaration expected.
+# Error: COMP96_0018: var5_TB.vhd : (141, 8): Identifier expected.
+# Error: COMP96_0016: var5_TB.vhd : (141, 15): Design unit declaration expected.
+# Error: COMP96_0018: var5_TB.vhd : (142, 8): Identifier expected.
+# Error: COMP96_0016: var5_TB.vhd : (142, 15): Design unit declaration expected.
+# Compile failure 6 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -work lab_2 -2002  $dsn/src/var5_TestBench/var5_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_TestBench\var5_TB.vhd
+# Compile Entity "var5_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "var5_tb"
+# Compile Configuration "TESTBENCH_FOR_var5_behavioral"
+# Error: COMP96_0019: var5_TB.vhd : (140, 30): Keyword 'end' expected.
+# Error: COMP96_0016: var5_TB.vhd : (140, 34): Design unit declaration expected.
+# Error: COMP96_0018: var5_TB.vhd : (141, 8): Identifier expected.
+# Error: COMP96_0016: var5_TB.vhd : (141, 15): Design unit declaration expected.
+# Error: COMP96_0018: var5_TB.vhd : (142, 8): Identifier expected.
+# Error: COMP96_0016: var5_TB.vhd : (142, 15): Design unit declaration expected.
+# Compile failure 6 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -work lab_2 -2002  $dsn/src/var5_TestBench/var5_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_TestBench\var5_TB.vhd
+# Compile Entity "var5_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "var5_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+SetActiveLib -work               
+comp -include "$dsn\src\var5_behavioral.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_behavioral.vhd
+# Compile Entity "var5_behavioral"
+# Compile Architecture "var5_behavioral_arch" of Entity "var5_behavioral"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+comp -include "$dsn\src\var5_structural.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_structural.vhd
+# Compile Entity "var5_str"
+# Compile Architecture "var5_str_arch" of Entity "var5_str"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+comp -include "$dsn\src\var5_TestBench\var5_TB.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_TestBench\var5_TB.vhd
+# Compile Entity "var5_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "var5_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim +access +r TESTBENCH_FOR_var5_behavioral 
+#  Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6012 kB (elbread=1024 elab2=4896 kernel=91 sdf=0)
+# KERNEL: ASDB file was created in location d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\wave.asdb
+#  0:13, вторник, 3 окт€бр€ 2017 г.
+#  Simulation has been initialized
+#  Selected Top-Level: testbench_for_var5_behavioral
+wave 
+wave -noreg w
+wave -noreg x
+wave -noreg y
+wave -noreg z
+wave -noreg f
+# No signals matching
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\var5_TestBench\var5_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_var5_behavioral 
+# 4 signal(s) traced.
+run 400 ns
+# EXECUTION:: NOTE   : Outputs from behavioral and structural implmentations are not equal.
+# EXECUTION:: Time: 0 ps,  Iteration: 2,  Instance: /var5_tb,  Process: ASSERT_OUTPUTS.
+# EXECUTION:: NOTE   : Outputs from behavioral and structural implmentations are not equal.
+# EXECUTION:: Time: 75 ns,  Iteration: 2,  Instance: /var5_tb,  Process: ASSERT_OUTPUTS.
+# EXECUTION:: NOTE   : Outputs from behavioral and structural implmentations are not equal.
+# EXECUTION:: Time: 100 ns,  Iteration: 2,  Instance: /var5_tb,  Process: ASSERT_OUTPUTS.
+# EXECUTION:: NOTE   : Outputs from behavioral and structural implmentations are not equal.
+# EXECUTION:: Time: 175 ns,  Iteration: 2,  Instance: /var5_tb,  Process: ASSERT_OUTPUTS.
+# EXECUTION:: NOTE   : Outputs from behavioral and structural implmentations are not equal.
+# EXECUTION:: Time: 200 ns,  Iteration: 2,  Instance: /var5_tb,  Process: ASSERT_OUTPUTS.
+# EXECUTION:: NOTE   : Outputs from behavioral and structural implmentations are not equal.
+# EXECUTION:: Time: 350 ns,  Iteration: 2,  Instance: /var5_tb,  Process: ASSERT_OUTPUTS.
+# EXECUTION:: NOTE   : Outputs from behavioral and structural implmentations are not equal.
+# EXECUTION:: Time: 400 ns,  Iteration: 2,  Instance: /var5_tb,  Process: ASSERT_OUTPUTS.
+# KERNEL: stopped at time: 400 ns
+acom -O3 -work lab_2 -2002  $dsn/src/var5_TestBench/var5_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_TestBench\var5_TB.vhd
+# Compile Entity "var5_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "var5_tb"
+# Compile Configuration "testbench_for_var5_behavioral"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+SetActiveLib -work               
+comp -include "$dsn\src\var5_behavioral.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_behavioral.vhd
+# Compile Entity "var5_behavioral"
+# Compile Architecture "var5_behavioral_arch" of Entity "var5_behavioral"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+comp -include "$dsn\src\var5_structural.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_structural.vhd
+# Compile Entity "var5_str"
+# Compile Architecture "var5_str_arch" of Entity "var5_str"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+comp -include "$dsn\src\var5_TestBench\var5_TB.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_TestBench\var5_TB.vhd
+# Compile Entity "var5_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "var5_tb"
+# Compile Configuration "testbench_for_var5_behavioral"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim +access +r TESTBENCH_FOR_var5_behavioral 
+#  Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6012 kB (elbread=1024 elab2=4896 kernel=91 sdf=0)
+# KERNEL: ASDB file was created in location d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\wave.asdb
+#  0:15, вторник, 3 окт€бр€ 2017 г.
+#  Simulation has been initialized
+#  Selected Top-Level: testbench_for_var5_behavioral
+wave 
+wave -noreg w
+wave -noreg x
+wave -noreg y
+wave -noreg z
+wave -noreg f
+# No signals matching
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\var5_TestBench\var5_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_var5_behavioral 
+# 4 signal(s) traced.
+run 400 ns
+# EXECUTION:: WARNING: Outputs from behavioral and structural implmentations are not equal.
+# EXECUTION:: Time: 0 ps,  Iteration: 2,  Instance: /var5_tb,  Process: ASSERT_OUTPUTS.
+# EXECUTION:: WARNING: Outputs from behavioral and structural implmentations are not equal.
+# EXECUTION:: Time: 75 ns,  Iteration: 2,  Instance: /var5_tb,  Process: ASSERT_OUTPUTS.
+# EXECUTION:: WARNING: Outputs from behavioral and structural implmentations are not equal.
+# EXECUTION:: Time: 100 ns,  Iteration: 2,  Instance: /var5_tb,  Process: ASSERT_OUTPUTS.
+# EXECUTION:: WARNING: Outputs from behavioral and structural implmentations are not equal.
+# EXECUTION:: Time: 175 ns,  Iteration: 2,  Instance: /var5_tb,  Process: ASSERT_OUTPUTS.
+# EXECUTION:: WARNING: Outputs from behavioral and structural implmentations are not equal.
+# EXECUTION:: Time: 200 ns,  Iteration: 2,  Instance: /var5_tb,  Process: ASSERT_OUTPUTS.
+# EXECUTION:: WARNING: Outputs from behavioral and structural implmentations are not equal.
+# EXECUTION:: Time: 350 ns,  Iteration: 2,  Instance: /var5_tb,  Process: ASSERT_OUTPUTS.
+# EXECUTION:: WARNING: Outputs from behavioral and structural implmentations are not equal.
+# EXECUTION:: Time: 400 ns,  Iteration: 2,  Instance: /var5_tb,  Process: ASSERT_OUTPUTS.
+# KERNEL: stopped at time: 400 ns
+SetActiveLib -work               
+comp -include "$dsn\src\var5_behavioral.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_behavioral.vhd
+# Compile Entity "var5_behavioral"
+# Compile Architecture "var5_behavioral_arch" of Entity "var5_behavioral"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+comp -include "$dsn\src\var5_structural.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_structural.vhd
+# Compile Entity "var5_str"
+# Compile Architecture "var5_str_arch" of Entity "var5_str"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+comp -include "$dsn\src\var5_TestBench\var5_TB.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_TestBench\var5_TB.vhd
+# Compile Entity "var5_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "var5_tb"
+# Compile Configuration "testbench_for_var5_behavioral"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim +access +r TESTBENCH_FOR_var5_behavioral 
+#  Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6012 kB (elbread=1024 elab2=4896 kernel=91 sdf=0)
+# KERNEL: ASDB file was created in location d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\wave.asdb
+#  0:23, вторник, 3 окт€бр€ 2017 г.
+#  Simulation has been initialized
+#  Selected Top-Level: testbench_for_var5_behavioral
+wave 
+wave -noreg w
+wave -noreg x
+wave -noreg y
+wave -noreg z
+wave -noreg f
+# No signals matching
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\var5_TestBench\var5_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_var5_behavioral 
+# 4 signal(s) traced.
+acom -O3 -work lab_2 -2002  $dsn/src/var5_TestBench/var5_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_TestBench\var5_TB.vhd
+# Compile Entity "var5_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "var5_tb"
+# Compile Configuration "testbench_for_var5_behavioral"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+SetActiveLib -work               
+comp -include "$dsn\src\var5_behavioral.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_behavioral.vhd
+# Compile Entity "var5_behavioral"
+# Compile Architecture "var5_behavioral_arch" of Entity "var5_behavioral"
+# Compile success 0 Errors 0 Warnings  Analysis time :  93.0 [ms]
+comp -include "$dsn\src\var5_structural.vhd"
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_structural.vhd
+# Compile Entity "var5_str"
+# Compile Architecture "var5_str_arch" of Entity "var5_str"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+comp -include "$dsn\src\var5_TestBench\var5_TB.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\var5_TestBench\var5_TB.vhd
+# Compile Entity "var5_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "var5_tb"
+# Compile Configuration "testbench_for_var5_behavioral"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+asim +access +r TESTBENCH_FOR_var5_behavioral 
+#  Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6012 kB (elbread=1024 elab2=4896 kernel=91 sdf=0)
+# KERNEL: ASDB file was created in location d:\Documents\Univer\kurs_4\semestr_7\software_of_digital_design\labs\lab_2\src\wave.asdb
+#  0:25, вторник, 3 окт€бр€ 2017 г.
+#  Simulation has been initialized
+#  Selected Top-Level: testbench_for_var5_behavioral
+wave 
+wave -noreg w
+wave -noreg x
+wave -noreg y
+wave -noreg z
+wave -noreg f
+# No signals matching
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\var5_TestBench\var5_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_var5_behavioral 
+# 4 signal(s) traced.
+# KERNEL: Signal '/var5_tb/w' has already been traced
+# KERNEL: Signal '/var5_tb/x' has already been traced
+# KERNEL: Signal '/var5_tb/y' has already been traced
+# KERNEL: Signal '/var5_tb/z' has already been traced
+# 3 signal(s) traced.
+run 400 ns
+# EXECUTION:: WARNING: Outputs from behavioral and structural implmentations are not equal.
+# EXECUTION:: Time: 0 ps,  Iteration: 2,  Instance: /var5_tb,  Process: ASSERT_OUTPUTS.
+# EXECUTION:: WARNING: Outputs from behavioral and structural implmentations are not equal.
+# EXECUTION:: Time: 75 ns,  Iteration: 2,  Instance: /var5_tb,  Process: ASSERT_OUTPUTS.
+# EXECUTION:: WARNING: Outputs from behavioral and struct

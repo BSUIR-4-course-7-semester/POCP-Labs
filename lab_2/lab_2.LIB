@@ -1,4 +1,4 @@
-timestamp=1506978928651
+timestamp=1506979543623
 
 [mux]
 A/mux_arch=21|./src/mux.vhd|24|1*16788
@@ -82,52 +82,52 @@ Version/not_or2_arch=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
 
 [testbench_for_var5_behavioral]
 Configures=var5_tb.tb_architecture
-E=1*216928
+E=1*240334
 I=0*33035
-M=2|0|v98|1506978928547|./src/var5_TestBench/var5_TB.vhd|0*32526*0x003bbe8d50cb66a995ff02311c18dd91d5fcda9e|0*32913*0xb33770ff1c10522f9491560174ac8e6c
+M=2|0|v98|1506979543500|./src/var5_TestBench/var5_TB.vhd|0*32526*0x003bbe8d50cb66a995ff02311c18dd91d5fcda9e|0*32913*0xb33770ff1c10522f9491560174ac8e6c
 R=./src/var5_TestBench/var5_TB.vhd|138
 Version=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
 
 [var5_behavioral]
-A/var5_behavioral_arch=21|./src/var5_behavioral.vhd|23|1*207728
-BinI32/var5_behavioral_arch=3*11946
+A/var5_behavioral_arch=21|./src/var5_behavioral.vhd|23|1*231134
+BinI32/var5_behavioral_arch=3*14482
 I=0*19876
 I/var5_behavioral_arch=0*20847
 M=11|0|v98|1506882375231|./src/var5_behavioral.vhd|0*19500*0xe07470aaaa9a148e0275ca52f25161c5c6d90cc1|0*19785*0xab32bc1a2daf049573e14469f634e0e6
-M/var5_behavioral_arch=21|0|v98|1506978927726|./src/var5_behavioral.vhd|0*20478*0x2ccda161306002f21bb16e7d6c7e21a7de0fdbd3|0*20732*0xb33770ff1c10522f9491560174ac8e6c
+M/var5_behavioral_arch=21|0|v98|1506979542399|./src/var5_behavioral.vhd|0*20478*0x2ccda161306002f21bb16e7d6c7e21a7de0fdbd3|0*20732*0xb33770ff1c10522f9491560174ac8e6c
 R=./src/var5_behavioral.vhd|13
 Version=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
 Version/var5_behavioral_arch=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
 
 [var5_str]
-A/var5_str_arch=21|./src/var5_structural.vhd|25|1*208888
+A/var5_str_arch=21|./src/var5_structural.vhd|25|1*232294
 I=0*16134
 I/var5_str_arch=0*18854
 M=11|0|v98|1506876687426|./src/var5_structural.vhd|0*15766*0xd10c3d29fb7f27be39a32d48fb3678d30fc67061|0*16050*0xab32bc1a2daf049573e14469f634e0e6
-M/var5_str_arch=21|0|v98|1506978928154|./src/var5_structural.vhd|0*16236*0x7003525002a82e2cd7676828e8ef928ed80e2de3|0*17379*0xb33770ff1c10522f9491560174ac8e6c
+M/var5_str_arch=21|0|v98|1506979543075|./src/var5_structural.vhd|0*16236*0x7003525002a82e2cd7676828e8ef928ed80e2de3|0*17379*0xb33770ff1c10522f9491560174ac8e6c
 R=./src/var5_structural.vhd|15
 Version=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
 Version/var5_str_arch=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
 
 [var5_tb]
-A/tb_architecture=A/TB_ARCHITECTURE 21|./src/var5_TestBench/var5_TB.vhd|7|1*213506
-BinI32/tb_architecture=3*12437
+A/tb_architecture=A/TB_ARCHITECTURE 21|./src/var5_TestBench/var5_TB.vhd|7|1*236912
+BinI32/tb_architecture=3*14973
 I=0*21299
 I/tb_architecture=I/TB_ARCHITECTURE 0*40181
 M=11|0|v98|1506975811034|./src/var5_TestBench/var5_TB.vhd|0*21044*0x17d35c1f1042cc1d73e140e72a858be97807d32b|0*21209*0xab32bc1a2daf049573e14469f634e0e6
-M/tb_architecture=M/TB_ARCHITECTURE 21|0|v98|1506978928538|./src/var5_TestBench/var5_TB.vhd|0*38628*0x38449b2708a8b3f2e99246f4b79c5fa3ba46ede8|0*40072*0xb33770ff1c10522f9491560174ac8e6c
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|v98|1506979543407|./src/var5_TestBench/var5_TB.vhd|0*38628*0x38449b2708a8b3f2e99246f4b79c5fa3ba46ede8|0*40072*0xb33770ff1c10522f9491560174ac8e6c
 R=./src/var5_TestBench/var5_TB.vhd|6
 Version=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
 Version/tb_architecture=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
 
 [~A]
-ModifyID=383
+ModifyID=422
 Version=73
 
 [~MFT]
 0=251|0lab_2.mgf|40181|23430
-1=191|1lab_2.mgf|216928|191138
-3=69|3lab_2.mgf|12437|11946
+1=211|1lab_2.mgf|240334|214544
+3=79|3lab_2.mgf|14973|14482
 
 [~U]
 mux=11|0*3644|
