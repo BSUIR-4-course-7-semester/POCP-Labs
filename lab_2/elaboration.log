@@ -1,13 +1,29 @@
-Active-HDL 9.1.2353.4205  2017-10-01 21:39:46
+Active-HDL 9.1.2353.4205  2017-10-03 00:15:29
 
 Elaboration top modules:
-Architecture                  var5_behavioral_arch(var5_behavioral)
+VHDL Configuration            testbench_for_var5_behavioral
 
 
 ---------------------------------------------------------------------------------------------------------
 Entity          | Architecture         | Library | Info | Compiler Version         | Compilation Options
 ---------------------------------------------------------------------------------------------------------
+var5_tb         | tb_architecture      | lab_2   |      | 9.1.2353.4205  (Windows) | -O3
 var5_behavioral | var5_behavioral_arch | lab_2   |      | 9.1.2353.4205  (Windows) | -O3
+var5_str        | var5_str_arch        | lab_2   |      | 9.1.2353.4205  (Windows) | -O3
+inv             | inv_arch             | ble     |      | 9.1.2353.4205  (Windows) | -O3
+not_or2         | not_or2_arch         | lab_2   |      | 9.1.2353.4205  (Windows) | -O3
+nand2           | nand2_arch           | lab_2   |      | 9.1.2353.4205  (Windows) | -O3
+nor3            | nor3_arch            | lab_2   |      | 9.1.2353.4205  (Windows) | -O3
+nor2            | nor2_arch            | lab_2   |      | 9.1.2353.4205  (Windows) | -O3
+not_and3        | not_and3_arch        | lab_2   |      | 9.1.2353.4205  (Windows) | -O3
+or2             | or2_arch             | ble     |      | 9.1.2353.4205  (Windows) | -O3
+and2            | and2_arch            | ble     |      | 9.1.2353.4205  (Windows) | -O3
+---------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------
+VHDL Configuration                     | Library | Info | Compiler Version         | Compilation Options
+---------------------------------------------------------------------------------------------------------
+testbench_for_var5_behavioral          | lab_2   |      | 9.1.2353.4205  (Windows) | -O3
 ---------------------------------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------------------------------
@@ -21,11 +37,12 @@ std_logic_1164                         | ieee    |      | 9.1.2353.4205  (Window
 ---------------------------------------------------------------------------------------------------------
 Library                                | Comment
 ---------------------------------------------------------------------------------------------------------
+ble                                    | None
 ieee                                   | Standard IEEE packages library
 lab_2                                  | None
 std                                    | Standard VHDL library
 ---------------------------------------------------------------------------------------------------------
 
 
-Simulation Options: asim -O5 +access +r +m+var5_behavioral var5_behavioral var5_behavioral_arch
+Simulation Options: asim +access +r TESTBENCH_FOR_var5_behavioral
 

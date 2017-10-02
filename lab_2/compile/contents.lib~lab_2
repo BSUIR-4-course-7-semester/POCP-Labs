@@ -1,4 +1,4 @@
-89
+383
 ~E 1 "./src/mux.vhd" 15 mux
 ~A 1 "./src/mux.vhd" 24 mux_arch
 ~E 1 "./src/mux2.vhd" 13 mux2
@@ -15,7 +15,10 @@
 ~A 1 "./src/not_and3.vhd" 24 not_and3_arch
 ~E 1 "./src/not_and2.vhd" 15 not_or2
 ~A 1 "./src/not_and2.vhd" 23 not_or2_arch
+~C 1 "./src/var5_TestBench/var5_TB.vhd" 138 testbench_for_var5_behavioral
 ~E 1 "./src/var5_behavioral.vhd" 13 var5_behavioral
 ~A 1 "./src/var5_behavioral.vhd" 23 var5_behavioral_arch
 ~E 1 "./src/var5_structural.vhd" 15 var5_str
 ~A 1 "./src/var5_structural.vhd" 25 var5_str_arch
+~E 1 "./src/var5_TestBench/var5_TB.vhd" 6 var5_tb
+~A 1 "./src/var5_TestBench/var5_TB.vhd" 7 TB_ARCHITECTURE

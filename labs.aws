@@ -10,7 +10,7 @@ mode=none
 order=1
 macro=
 [Expand]
-lab_1=1
+lab_1=0
 lab_2=1
 basic_logic_elements=0
 ble=0

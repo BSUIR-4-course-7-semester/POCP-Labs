@@ -59,9 +59,12 @@ Extension7=
 
 [HierarchyViewer]
 SortInfo=u
-HierarchyInformation=mux|mux_arch|0 mux2|mux2_arch|0 var5_behavioral|var5_behavioral_arch|0 var5_str|var5_str_arch|0 
+HierarchyInformation=mux|mux_arch|0 mux2|mux2_arch|0 var5_behavioral|var5_behavioral_arch|0 var5_str|var5_str_arch|0
 ShowHide=ShowTopLevel
 Selected=
+
+[Groups]
+var5_TestBench=1
 
 [Files]
 /mux.vhd=-1
@@ -73,6 +76,8 @@ Selected=
 /nor3.vhd=-1
 /not_and3.vhd=-1
 /var5_behavioral.vhd=-1
+var5_TestBench/var5_TB.vhd=-1
+var5_TestBench/var5_TB_runtest.do=-1
 
 [Files.Data]
 .\src\mux.vhd=VHDL Source Code
@@ -84,4 +89,6 @@ Selected=
 .\src\nor3.vhd=VHDL Source Code
 .\src\not_and3.vhd=VHDL Source Code
 .\src\var5_behavioral.vhd=VHDL Source Code
+.\src\var5_TestBench\var5_TB.vhd=VHDL Test Bench
+.\src\var5_TestBench\var5_TB_runtest.do=Macro
 

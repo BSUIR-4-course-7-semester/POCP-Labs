@@ -7,3 +7,4 @@ i<>.\src\nor2.vhd
 i<>.\src\nor3.vhd
 i<>.\src\not_and3.vhd
 i<>.\src\var5_behavioral.vhd
+i<>.\src\var5_TestBench\var5_TB.vhd
